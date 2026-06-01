@@ -13,14 +13,6 @@
 #   url      (optional) — link to join / RSVP / details
 #   summary  (optional) — one line on what it is
 
-- title: Co-Goods community call
-  start: 2026-06-12T17:00:00Z
-  end: 2026-06-12T18:00:00Z
-  kind: discord-call
-  location: Co-Goods Discord — #events
-  url: https://discord.gg/8asdWDW5QY
-  summary: Monthly sync — what's shipped, what's next, and open questions.
-
 - title: Open research session
   start: 2026-06-26T16:00:00Z
   end: 2026-06-26T17:30:00Z
