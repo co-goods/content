@@ -3,10 +3,11 @@ template: plain-page
 template_version: 1.0.0
 title: Co-Goods Manifesto
 summary: A protocol for co-created and networked physical products that become more valuable through shared use and collaborative ownership.
+discord: https://discord.com/channels/1241649853658824776/1511030216833634416
 status: active
 stage: draft
 created: 2026-05-23
-updated: 2026-05-23
+updated: 2026-06-01
 ---
 
 # Co-Goods Manifesto
