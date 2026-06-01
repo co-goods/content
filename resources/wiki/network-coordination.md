@@ -5,7 +5,7 @@ collection: wiki
 slug: network-coordination
 title: Network Coordination
 summary: Patterns and mechanisms by which distributed participants align their actions across a network without central direction.
-discord: https://discord.com/channels/1178982785415913522/1509687209408725072
+discord: https://discord.com/channels/1241649853658824776/1510979621636804721
 tags:
   - coordination
   - network-effects
