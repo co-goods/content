@@ -5,20 +5,20 @@
 # this file and renders upcoming or past events.
 #
 # Each entry:
-#   title    (required) — the event name
-#   start    (required) — ISO 8601 datetime, e.g. 2026-06-12T17:00:00Z
-#   end      (optional) — ISO 8601 datetime
-#   kind     (required) — irl | video-call | discord-call
-#   location (optional) — where it happens (venue, "Online", a Discord channel)
-#   url      (optional) — link to join / RSVP / details
-#   summary  (optional) — one line on what it is
+#   title      (required) — the event name
+#   start      (one-off events) — ISO 8601 datetime, e.g. 2026-06-12T17:00:00Z
+#   end        (optional) — ISO 8601 datetime
+#   recurrence (recurring events) — a human schedule string; use instead of start
+#   kind       (required) — irl | video-call | discord-call
+#   location   (optional) — where it happens (venue, "Online", a Discord channel)
+#   url        (optional) — link to join / RSVP / details
+#   summary    (optional) — one line on what it is
 
-- title: Open research session
-  start: 2026-06-26T16:00:00Z
-  end: 2026-06-26T17:30:00Z
-  kind: video-call
-  location: Online
-  summary: Work through open research questions together — bring a problem.
+- title: Co-Goods community call
+  recurrence: "Weekly · Wednesdays, 5:00 PM UTC"
+  kind: discord-call
+  url: https://discord.com/events/1241649853658824776/1511057832730951700/1519341325516800000
+  summary: What's shipped, what's next, and open questions — open to anyone.
 
 - title: First IRL meetup (Stockholm)
   start: 2026-05-20T18:00:00Z
