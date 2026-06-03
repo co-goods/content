@@ -107,19 +107,31 @@ A Co-Goods core-team maintainer reviews each PR. Typical timeline:
 3. Merge once aligned.
 4. The maintainer may flip `stage: draft` → `stage: published` at merge time if the content is mature, or leave it as a draft for further iteration.
 
-## License
+## Licensing
 
-Original first-party content **defaults to** the **Creative Commons Attribution-ShareAlike 4.0 International License** (CC BY-SA 4.0) — see [`LICENSE`](./LICENSE). The default is "unless otherwise noted": it applies to the prose you author (wiki, essays, glossary, and so on) without you declaring it per file.
+**Your contribution's license (outbound).** Original first-party prose you author — wiki, essays, glossary, research — is licensed **CC-BY-SA-4.0** (see [`LICENSE`](./LICENSE)); it applies without you declaring it per file. Essays may carry a per-item override (below).
 
-**By submitting an original contribution, you agree it is licensed under the same terms as the project (CC BY-SA 4.0).** Inbound license matches outbound — no separate Contributor License Agreement (CLA). This matches the license of the DePalma Workshop Dictionary Schema (used by our glossary) and is the standard for open-innovation knowledge projects.
+**What we can accept (inbound).** Contributions must be **CC-BY-SA-4.0 or a more-permissive, compatible** license (`CC-BY-4.0`, `CC0-1.0`). We can't accept NonCommercial (NC) or NoDerivatives (ND) terms — they can't flow into a share-alike commons.
 
-The default has three exceptions:
+**Overriding per item.** An item can set its own `license:` in its YAML frontmatter using an **SPDX identifier** (e.g. `CC-BY-4.0`); it must still be compatible. See [`docs/conventions/frontmatter.md`](./docs/conventions/frontmatter.md).
 
-- **Per-item override.** An item can declare its own `license:` in frontmatter to override the default — for a contribution under a different (compatible) license. See [`docs/conventions/frontmatter.md`](./docs/conventions/frontmatter.md).
-- **Media carries its own license.** An embedded video or reused image is licensed by *its* creator, not by us — set `credit` and `license` on the block and make sure the terms permit the use. See [`docs/conventions/media.md`](./docs/conventions/media.md).
-- **Library entries don't relicense the works they describe.** A book or paper entry's record and our commentary are first-party; the described work's own rights are untouched. Citing or quoting is fair-use citation, not relicensing.
+**Things you bring with you (inherited / third-party).**
 
-If you're including external content (quotes, figures, etc.), ensure it's compatible (public domain, CC-compatible, or fair-use citation). When in doubt, ask in the PR or on Discord.
+- **Media** keeps *its own* license — set `credit` and `license` on the `image` / `video` block, and the terms must permit the use. See [`docs/conventions/media.md`](./docs/conventions/media.md).
+- **Library entries** have three layers: the *described work* (its own license, untouched), the *catalogue record* (factual), and your *summary / commentary* (CC-BY-SA). Citing or quoting is fair-use citation, not relicensing — never relicense someone else's work.
+- **Quotes and figures** from elsewhere must be compatible (public domain, CC-compatible, or fair-use citation). When in doubt, ask in the PR.
+
+**Multiple authors.** Credit everyone involved in the item's YAML frontmatter. Ideas developed collaboratively — in discussions, working sessions, events, on Discord, or anywhere else — are fine to synthesize and credit. If you reuse someone's substantial **wording** (not just their idea), they must also be a covered contributor.
+
+## Contributor License Agreement
+
+Contributing requires agreeing to our **Contributor License Agreement** (current: [`cla-v1`](https://github.com/co-goods/.github/blob/main/cla/cla-v1.md)). You keep your copyright; you grant a broad, sublicensable, assignable license so the work can stay open and, if needed, move to a future neutral entity. It's deliberately broad while we're small — we expect to relax it in a later version; if a term is a dealbreaker, please reach out, it's a matter of priorities, not principle.
+
+**Signing:** add your name and the CLA version to [`CLA-SIGNATURES.md`](https://github.com/co-goods/.github/blob/main/CLA-SIGNATURES.md) in your pull request. (We'll automate this with cla-assistant as we grow.)
+
+## Developer Certificate of Origin
+
+Some projects use a [DCO](https://developercertificate.org) sign-off (`git commit -s`). We rely on the CLA above, which already covers provenance, so **no sign-off is required here** — we mention it only because you may recognize it from other projects.
 
 ---
 
