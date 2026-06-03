@@ -12,6 +12,7 @@ year: 2019
 publication_date: 2019-11-01
 isbn: 978-0-00-000000-0
 url: https://example.org/books/johnson-2019
+work_license: CC-BY-SA-4.0
 tags:
   - coordination
   - commons

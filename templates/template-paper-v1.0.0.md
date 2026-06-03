@@ -11,6 +11,7 @@ volume: ""
 issue: ""
 doi: ""
 url: ""
+work_license: ""
 language: ""
 peer_reviewed: false
 open_access: false

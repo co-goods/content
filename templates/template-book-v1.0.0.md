@@ -10,6 +10,7 @@ publisher: ""
 isbn: ""
 language: ""
 url: ""
+work_license: ""
 summary: ""
 our_take: ""
 key_points: []

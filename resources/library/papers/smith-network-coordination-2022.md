@@ -15,6 +15,7 @@ volume: "10"
 issue: "2"
 doi: https://example.org/doi/10.0000/example.2022.001
 url: https://example.org/papers/smith-2022
+work_license: CC-BY-4.0
 tags:
   - coordination
   - network-effects
