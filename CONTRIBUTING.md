@@ -12,6 +12,16 @@ Welcome! Co-Goods is an open-innovation research project. Anyone is welcome to c
 
 This document covers *how* to contribute. For the *what* — collections, items, templates — see [`docs/conventions/taxonomy.md`](./docs/conventions/taxonomy.md) and the `templates/` directory.
 
+## Contributing to other parts of Co-Goods
+
+This guide is for **research and content** — what lives in this repository. Co-Goods spans a few repositories, and the same Contributor License Agreement and licensing model apply across all of them:
+
+- **Research & content** (wiki, essays, glossary, library, research) — *this repository*.
+- **Website** (application code + site pages and overlays) — the [website repository](https://github.com/co-goods/website) (see its `CONTRIBUTING.md`).
+- More repositories will open to contributions as the project grows.
+
+The rest of this guide covers research and content contributions.
+
 ## Quick start
 
 1. **Fork** this repository on GitHub.
