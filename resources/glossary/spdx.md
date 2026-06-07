@@ -25,3 +25,7 @@ updated: 2026-05-30
 ## Related terms
 
 - [[resources/glossary/license|license]]
+
+## In the library
+
+- [[resources/library/standards/spdx|SPDX]] — the standard's catalogue entry.
