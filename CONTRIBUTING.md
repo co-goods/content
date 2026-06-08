@@ -125,10 +125,12 @@ A Co-Goods core-team maintainer reviews each PR. Typical timeline:
 
 **Overriding per item.** An item can set its own `license:` in its YAML frontmatter using an **SPDX identifier** (e.g. `CC-BY-4.0`); it must still be compatible. See [`docs/conventions/frontmatter.md`](./docs/conventions/frontmatter.md).
 
+**Mentioning a license inline.** To call out a license in prose, write `[[license:<SPDX-id>]]` for a small linked chip — a highlight, not a declaration. See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md).
+
 **Things you bring with you (inherited / third-party).**
 
 - **Media** keeps *its own* license — set `credit` and `license` on the `image` / `video` block, and the terms must permit the use. See [`docs/conventions/media.md`](./docs/conventions/media.md).
-- **Library entries** have three layers: the *described work* (its own license, untouched), the *catalogue record* (factual), and your *summary / commentary* (CC-BY-SA). Citing or quoting is fair-use citation, not relicensing — never relicense someone else's work.
+- **Library entries** have three layers: the *described work* (its own license, recorded in `work_license:`, untouched), the *catalogue record* (factual), and your *summary / commentary* (CC-BY-SA). Citing or quoting is fair-use citation, not relicensing — never relicense someone else's work.
 - **Quotes and figures** from elsewhere must be compatible (public domain, CC-compatible, or fair-use citation). When in doubt, ask in the PR.
 
 **Multiple authors.** Credit everyone involved in the item's YAML frontmatter. Ideas developed collaboratively — in discussions, working sessions, events, on Discord, or anywhere else — are fine to synthesize and credit. If you reuse someone's substantial **wording** (not just their idea), they must also be a covered contributor.

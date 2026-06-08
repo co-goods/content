@@ -27,7 +27,7 @@ Licensing here isn't one-size-fits-all — different kinds of material carry dif
 
 Original first-party content — the prose we author: wiki articles, glossary entries, essays, research — defaults to the **Creative Commons Attribution-ShareAlike 4.0 International** license (CC BY-SA 4.0).
 
-The default is stated once — in the repository's `LICENSE`, the site footer, and [CONTRIBUTING](/contributing) — so you don't repeat it on every file. Share-alike means anyone may reuse and adapt the work, including commercially, as long as they credit it and license their adaptation under the same terms. That's what keeps the commons a commons.
+The default is stated once — in the repository's `LICENSE` and the site footer — so you don't repeat it on every file. Share-alike means anyone may reuse and adapt the work, including commercially, as long as they credit it and license their adaptation under the same terms. That's what keeps the commons a commons.
 
 ## Per-collection notes
 
@@ -38,16 +38,23 @@ The default is stated once — in the repository's `LICENSE`, the site footer, a
 
 To license a single item differently, set `license:` (and optionally `license_url:`) in its frontmatter. Absent = the item inherits the default. This is for the occasional piece under a different, compatible license, or content with a specific provenance. See [[docs/conventions/frontmatter|frontmatter]] for the field — the value is an SPDX identifier (e.g. `CC-BY-4.0`).
 
+## Mentioning a license inline
+
+To call out a license in the middle of prose — "released under …" — write `[[license:<SPDX-id>]]` and the site renders a small linked license chip. For example, `[[license:MIT]]` renders as [[license:MIT]]. It's a *highlight*, not a per-item declaration; it changes nothing's license. See [[docs/conventions/wikilinks|wikilinks]] for the syntax.
+
 ## Media carries its own license
 
 Images and video are licensed **independently** of the item they appear in — an embedded video carries the platform's or creator's terms; a photo carries its own. Declare a media license on the `image` / `video` block, not in the item frontmatter — see [[docs/conventions/media|media]]. Media you didn't create must carry a credit and a license that permits the use.
 
 ## Works we reference (the library)
 
-A library entry describes a book, paper, or other work. Two things stay separate:
+A library entry involves **three distinct layers**, each licensed on its own terms:
 
-- **Our record and commentary** — the entry we write *about* the work — is first-party content under the default license.
-- **The work itself is untouched.** Cataloguing, summarising, citing, or featuring a work asserts no license over it. Quoted excerpts are fair-use citation, not relicensing.
+- **The described work** — the book, paper, or standard itself — keeps its own license. We record it in the entry's `work_license:` field (an SPDX identifier) but we neither grant nor change it. Cataloguing, summarising, citing, or featuring a work asserts no license over it; quoted excerpts are fair-use citation, not relicensing.
+- **The catalogue record** — the bibliographic entry we create (title, authors, year, …) — is first-party content under the default license.
+- **Our commentary** — the "our take" and notes we write about the work — is likewise first-party under the default license.
+
+So the same page mixes a third-party-licensed *subject* with first-party-licensed *description* — `work_license:` keeps the former explicit. See [[docs/conventions/frontmatter|frontmatter]] for the field.
 
 ### Redistributing a referenced work
 
@@ -62,7 +69,7 @@ CC BY-SA 4.0 governs *content*. The website's code carries its own license — s
 
 ## Contributing your own work
 
-When you contribute, the contribution terms are in [CONTRIBUTING](/contributing). In short: contribute work that is yours to contribute, make sure any media or third-party material you include is properly licensed for the use, and credit sources.
+When you contribute, see [how to contribute](/community/contributing) for the contribution terms. In short: contribute work that is yours to contribute, make sure any media or third-party material you include is properly licensed for the use, and credit sources.
 
 ## Not legal advice
 

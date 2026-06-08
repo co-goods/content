@@ -58,6 +58,32 @@ To intentionally link to a tag (not a topic page), qualify it:
 [[tags/antirival]]
 ```
 
+## Inline license references
+
+Besides path links, there's a special **license reference** form: writing
+`[[license:<SPDX-id>]]` anywhere in a body renders a small license chip — the
+license's short label, linked to its canonical text. For example, this source:
+
+```markdown
+The data is [[license:CC0-1.0]]; the prose is [[license:CC-BY-SA-4.0]].
+```
+
+renders as:
+
+The data is [[license:CC0-1.0]]; the prose is [[license:CC-BY-SA-4.0]].
+
+It's a *highlight*, not a navigation link — use it to call out the license of
+something you're discussing inline. The value is an
+[[resources/glossary/spdx|SPDX]] identifier (the same codes used in the
+`license:` and `work_license:` frontmatter fields). It works in any markdown
+body — essays, wiki, docs, library entries.
+
+This is only for *mentioning* a license. For the license of the **whole item**
+use the `license:` frontmatter field; for the license of a **third-party work**
+in the library use `work_license:`. See
+[[docs/conventions/frontmatter|frontmatter]] for the fields and
+[[docs/conventions/licensing|licensing]] for the full model.
+
 ## Frontmatter arrays use bare slugs
 
 In frontmatter array fields, slugs stay bare — the collection is implicit from the field name:

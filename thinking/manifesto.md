@@ -46,7 +46,7 @@ and contributors co-good without locking themselves into one platform.
 
 In the open. Every observation, insight, and hypothesis is published as
 we develop it. Essays argue our take; reports compile findings formally.
-Contributors welcome — see [our contribution guide](/contributing).
+Contributors welcome — see [how to contribute](/community/contributing).
 
 ---
 
