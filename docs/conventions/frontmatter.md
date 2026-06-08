@@ -94,14 +94,20 @@ A one- or two-sentence summary used in listings, search results, and as a meta d
 
 ### `status:` and `stage:`
 
-For draft / work-in-progress content:
+Two independent flags: `status:` controls **visibility**, `stage:` controls **maturity**.
 
 ```yaml
-status: active
-stage: draft       # or "polished" / "published"
+status: active     # active | inactive — is the item on the site at all?
+stage: draft       # stub | draft | published — how mature is it?
 ```
 
-The website renders a WIP banner on items with `stage: draft`. Cross-collection convention; check each template's notes for specifics.
+The maturity ladder is **`stub → draft → published`**:
+
+- **`stub`** — a placeholder: the *intention* or outline of a page, before it has real content. Use it to stake out a doc that's coming.
+- **`draft`** — real work-in-progress. The website renders a visible "Draft — work in progress" banner.
+- **`published`** — complete; no banner.
+
+Visibility is separate: `status: inactive` keeps an item off the site regardless of stage. Cross-collection convention; check each template's notes for specifics.
 
 ### `example: true`
 
@@ -154,6 +160,16 @@ license_url: https://creativecommons.org/licenses/by/4.0/
 Write the value as an **SPDX identifier** — the standard short code for a license (`CC-BY-4.0`, `CC-BY-SA-4.0`, `CC0-1.0`, `MIT`, …). It's unambiguous and machine-readable, and the site renders a friendly, linked label from it, so `license_url:` is optional.
 
 Absent = the item inherits the site default. This is for the occasional item under a different (compatible) license. Note that **media carries its own license independently** — set that on the image/video block, not here (see `media.md`); and **library entries don't relicense the works they describe** — the record is first-party, the described work's rights are untouched. The full licensing model is in [[docs/conventions/licensing|licensing]].
+
+### `work_license:`
+
+Used **only on library entries**. It records the SPDX license of the **work being catalogued** — the book, paper, or standard itself — which is independent of the license on our own content:
+
+```yaml
+work_license: CC-BY-SA-4.0   # the described work's own license
+```
+
+Keep the two straight: `license:` is the license of *this page's* content (our prose) — library records use the site default, so they rarely set it — while `work_license:` is the *third-party work's* own license, which we record but neither grant nor change. See the library three-layer in [[docs/conventions/licensing|licensing]].
 
 ## Cross-cutting templates
 
