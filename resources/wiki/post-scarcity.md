@@ -29,7 +29,3 @@ Post-scarcity describes the breakdown of scarcity as the organising assumption o
 ## Relevance to Co-Goods
 
 Post-scarcity is the backdrop for co-goods themselves: non-rival, shareable goods whose value compounds when they are shared rather than withheld.
-
-## Related
-
-- *(to be expanded)*
