@@ -15,6 +15,8 @@ Metadata for items in the Co-Goods library. Serials are assigned on entry to the
 | Serial | Title | Slug | Type | Authors | Year | Cited | Featured | Added by | Added |
 |---|---|---|---|---|---|---|---|---|---|
 | l-00001 | SPDX (Software Package Data Exchange) | spdx | standard | — | 2021 |   | ✓ | [[people/pontus-karlsson\|Pontus Karlsson]] | 2026-06-03 |
+| l-00002 | Value uncaptured perspective for sustainable business model innovation | yang-value-uncaptured-2017 | paper | Yang, Evans, Vladimirova, Rana | 2017 |   | ✓ | [[people/pontus-karlsson\|Pontus Karlsson]] | 2026-06-08 |
+| l-00003 | The 8 Forms of Capital | roland-landua-eight-forms-of-capital-2011 | article | Roland, Landua | 2011 |   | ✓ | [[people/pontus-karlsson\|Pontus Karlsson]] | 2026-06-08 |
 
 ## Example items
 
@@ -30,7 +32,7 @@ Dummy content used to exercise website templates. Serials use the `x-#####` name
 - **Serial** — `l-#####` (zero-padded; assigned on entry to repo)
 - **Title** — display title
 - **Slug** — bare slug (for grep / wikilink)
-- **Type** — `book` / `paper` / `standard` / `podcast-episode` / `article` / `post` / `video` / `course`
+- **Type** — `book` / `paper` / `article` / `standard` / `podcast-episode` / `post` / `video` / `course`
 - **Authors** — [[people/<slug>|Display Name]] wikilink
 - **Year** — for sorting; matches the item's `year:` frontmatter
 - **Cited** — ✓ if `is-cited: true`, empty otherwise
