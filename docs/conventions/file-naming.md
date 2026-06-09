@@ -44,6 +44,12 @@ No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-folder naming. The fil
 | Blog posts | Descriptive short slug | `welcome-to-the-blog` |
 | Doc articles | Descriptive short slug | `slug-rules`, `required-fields` |
 
+## Display titles
+
+The `title:` field uses **sentence case** — capitalise only the first word and any proper nouns. Prefer "Network effects", "Eight forms of capital", "Value uncaptured" over Title Case ("Network Effects", …). Acronyms and proper nouns keep their own casing ("SPDX", "GitHub"). For **library entries**, use the work's *published* title as-is — it's a citation, not our heading.
+
+Slugs are independent of titles and always follow the kebab-case rules above.
+
 ## Serials
 
 Some library items get a **serial** in YAML frontmatter (never in the filename or folder name):
