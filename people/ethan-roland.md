@@ -25,7 +25,3 @@ updated: 2026-06-09
 ## Bio
 
 Practitioner and educator in regenerative agriculture and enterprise; co-founder of AppleSeed Permaculture and Terra Genesis International, and co-author of the *Eight Forms of Capital* framework (also publishes as Ethan Soloviev).
-
-## Relevance to Co-Goods
-
-Co-author of [[resources/library/articles/roland-landua-eight-forms-of-capital-2011|The 8 Forms of Capital]] — a multi-capital frame the project uses for value beyond money.

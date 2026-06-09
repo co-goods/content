@@ -37,10 +37,6 @@ updated: 2026-05-21T17:52
 
 Placeholder external-author profile used to exercise the people template. Affiliated with Example University's Department of Coordination Studies. Wrote [[resources/library/papers/smith-network-coordination-2022|the 2022 paper on network coordination]] and the earlier book [[resources/library/books/johnson-systems-thinking-2019|Systems Thinking for the Curious (2019)]].
 
-## Relevance to Co-Goods
-
-Test data only. Her work on asynchronous-coordination patterns is the seed for the example insight at [[research/insights/asynchronous-coordination-density]] and the hypothesis at [[research/hypotheses/engagement-density-correlation]].
-
 ## Notes
 
 External-author profile — affiliation `external-author`. Not claimed via the future Clerk-flow integration.

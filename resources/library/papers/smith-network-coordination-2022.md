@@ -44,10 +44,6 @@ updated: 2026-05-21T17:52
 
 This is a placeholder paper used to exercise the library template. It exists to test how the website renders a `paper`-type library entry with full bibliographic metadata, an author reference to [[people/jane-doe|Jane Doe]], and a publication chain through [[resources/library/publications/example-journal|Example Journal]] published by [[resources/library/publishers/example-press|Example Press]].
 
-## Relevance to Co-Goods
-
-Placeholder commentary. In a real entry this would summarise how the paper informs our thinking and where we agree / disagree.
-
 ## Quotes & citations
 
 > "Coordination doesn't require synchrony; it requires structures that survive asynchrony."

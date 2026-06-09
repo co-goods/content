@@ -27,9 +27,6 @@ updated: "{{date}}"
 ## Bio
 Brief biography and background.
 
-## Relevance to Co-Goods
-How this person's work relates to the co-goods project.
-
 ## Notes
 Additional notes.
 

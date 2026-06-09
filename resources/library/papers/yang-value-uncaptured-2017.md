@@ -50,10 +50,6 @@ Yang, Evans, Vladimirova, and Rana (2017) propose **value uncaptured** as a lens
 - **Value missed** — value created and required, but not captured.
 - **Value destroyed** — negative outcomes and waste.
 
-## Relevance to Co-Goods
-
-Placeholder commentary — the four-forms framing maps cleanly onto the value that extractive, linear models leave uncaptured, and gives us a shared vocabulary for what co-goods models try to recover.
-
 ## Notes
 
 Published in [[resources/library/publications/journal-of-cleaner-production|Journal of Cleaner Production]], vol. 140, pp. 1794–1804. DOI [10.1016/j.jclepro.2016.07.102](https://doi.org/10.1016/j.jclepro.2016.07.102). Linked, not hosted.

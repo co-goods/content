@@ -6,6 +6,7 @@ discord: https://discord.com/channels/1241649853658824776/1513643889527881859
 slug: value-uncaptured
 title: Value uncaptured
 summary: Value that could be created or captured but currently isn't — surplus, absent, missed, or destroyed.
+relevance: A vocabulary for the value that extractive, linear models fail to capture — the gap co-goods models aim to surface and redistribute.
 tags:
   - value
   - business-models
@@ -33,7 +34,3 @@ The value-uncaptured lens reframes business-model innovation around the value a 
 - **Value destroyed** — negative outcomes and waste.
 
 It turns "where is value lost?" into a structured search for opportunities.
-
-## Relevance to Co-Goods
-
-A vocabulary for the value that extractive, linear models fail to capture — the gap co-goods models aim to surface and redistribute.

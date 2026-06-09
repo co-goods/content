@@ -28,9 +28,6 @@ updated: "{{date}}"
 ## Overview
 Brief overview of the standard or specification — what it defines and who it's for.
 
-## Relevance to Co-Goods
-Our project's perspective on this standard and how it informs co-goods thinking.
-
 ## Notes
 Additional notes, thoughts, or questions.
 

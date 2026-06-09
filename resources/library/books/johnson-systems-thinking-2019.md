@@ -41,10 +41,6 @@ updated: 2026-05-21T17:52
 
 Placeholder book entry used to exercise the library template with `type: book`. Tests rendering of book-specific bibliographic fields (ISBN, publisher, no journal/volume) and cross-links to [[people/jane-doe|Jane Doe]] as author, plus [[resources/library/publishers/example-press|Example Press]] as publisher.
 
-## Relevance to Co-Goods
-
-Placeholder commentary. In a real entry this would describe how the book's framing of coordination problems intersects with our thinking.
-
 ## Quotes & citations
 
 > "The coupling is the interesting bit."

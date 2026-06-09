@@ -6,6 +6,7 @@ discord: ""
 slug: ""
 title: ""
 summary: ""
+relevance: ""
 tags: []
 related: []
 status: active
@@ -23,14 +24,6 @@ One- or two-sentence summary of the topic.
 Background and scope.
 
 ## ...content sections as the article matures...
-
-## Relevance to Co-Goods
-*(Optional.)* How this concept connects to the project — kept in its own labelled section so the Summary/Overview stay neutral and encyclopedic.
-
-## Related
-- `[[resources/wiki/...]]` — related wiki articles
-- `[[thinking/essays/...]]` — relevant essays
-- `[[resources/library/books/...]]`, `[[resources/library/papers/...]]` — library entries
 
 <!--
 Wiki article schema (template: wiki-article, v1.0.0).

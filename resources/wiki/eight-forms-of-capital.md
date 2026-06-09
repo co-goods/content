@@ -6,6 +6,7 @@ discord: https://discord.com/channels/1241649853658824776/1513645096162037840
 slug: eight-forms-of-capital
 title: Eight forms of capital
 summary: A framework (Roland & Landua) recognising eight kinds of capital — beyond the financial — that flow between people and communities.
+relevance: A multi-capital account of the value co-goods create and circulate — much of it social, intellectual, and living capital that money-only accounting misses.
 tags:
   - capital
   - value
@@ -38,7 +39,3 @@ The framework widens "capital" beyond money. The eight forms are:
 - **Spiritual** — connection, faith, and inner growth.
 
 The point is that regenerative enterprises create and exchange value across all eight, not only the financial.
-
-## Relevance to Co-Goods
-
-A multi-capital account of the value co-goods create and circulate — much of it social, intellectual, and living capital that money-only accounting misses.
