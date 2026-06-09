@@ -1,6 +1,7 @@
 ---
 template: publication
 template_version: 1.0.0
+collection: publications
 slug: ""
 name: ""
 publication_type: ""

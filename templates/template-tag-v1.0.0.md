@@ -1,6 +1,7 @@
 ---
 template: tag
 template_version: 1.0.0
+collection: tags
 slug: ""
 name: ""
 definition: ""

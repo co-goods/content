@@ -1,6 +1,7 @@
 ---
 template: hypothesis
 template_version: 1.0.0
+collection: hypotheses
 slug: ""
 title: ""
 authors: []

@@ -1,6 +1,8 @@
 ---
 template: book
 template_version: 1.0.0
+collection: books
+discord: ""
 slug: ""
 serial: ""
 title: ""
@@ -12,10 +14,9 @@ language: ""
 url: ""
 work_license: ""
 summary: ""
-our_take: ""
 key_points: []
 methodology: ""
-relevance_to_project: ""
+relevance: ""
 is-cited: false
 is-featured: false
 status: active
@@ -31,7 +32,7 @@ updated: "{{date}}"
 ## Overview
 Brief overview of the book and its main arguments or findings.
 
-## Our take
+## Relevance to Co-Goods
 Our project's perspective on this book and how it informs co-goods thinking.
 
 ## Quotes & citations

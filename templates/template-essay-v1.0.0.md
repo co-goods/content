@@ -1,6 +1,8 @@
 ---
 template: essay
 template_version: 1.0.0
+collection: essays
+discord: ""
 slug: ""
 title: ""
 authors: []
@@ -10,7 +12,7 @@ publishedAt: ""
 status: active
 stage: draft
 created: "{{date}}"
-updated: 2026-05-19T22:03
+updated: "{{date}}"
 ---
 
 # {{title}}

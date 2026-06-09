@@ -1,6 +1,7 @@
 ---
 template: standard
 template_version: 1.0.0
+collection: standards
 slug: ""
 serial: ""
 title: ""
@@ -10,9 +11,8 @@ year: ""
 url: ""
 work_license: ""
 summary: ""
-our_take: ""
 key_points: []
-relevance_to_project: ""
+relevance: ""
 is-cited: false
 is-featured: false
 status: active
@@ -28,7 +28,7 @@ updated: "{{date}}"
 ## Overview
 Brief overview of the standard or specification — what it defines and who it's for.
 
-## Our take
+## Relevance to Co-Goods
 Our project's perspective on this standard and how it informs co-goods thinking.
 
 ## Notes

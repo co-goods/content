@@ -11,7 +11,7 @@ year: 2021
 url: https://spdx.org/licenses/
 work_license: Community-Spec-1.0
 summary: An open standard for communicating software and content licensing via short, machine-readable identifiers (e.g. `MIT`, `CC-BY-SA-4.0`).
-relevance_to_project: SPDX identifiers are the vocabulary behind the per-item and library license fields across the content repo, and the source for the inline license reference.
+relevance: SPDX identifiers are the vocabulary behind the per-item and library license fields across the content repo, and the source for the inline license reference.
 key_points:
   - A standard for communicating software and content licensing, maintained by the Linux Foundation under the Community Specification License 1.0 (pre-existing portions under CC-BY-3.0).
   - Standardised as ISO/IEC 5962:2021 (based on SPDX 2.2.1) — note that ISO's own publication is copyrighted by ISO; the openly-licensed version is the one the Linux Foundation publishes.
@@ -43,7 +43,7 @@ Linux Foundation publishes.
 We catalogue and link to SPDX — we don't host it. The canonical identifier list
 always lives upstream.
 
-## Our take
+## Relevance to Co-Goods
 
 SPDX is the vocabulary the whole content repo leans on. Every per-item
 `license:` field, every library `work_license:`, and the inline
