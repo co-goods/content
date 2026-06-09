@@ -1,6 +1,8 @@
 ---
 template: wiki-article
 template_version: 1.0.0
+collection: wiki
+discord: ""
 slug: ""
 title: ""
 summary: ""
@@ -9,7 +11,7 @@ related: []
 status: active
 stage: draft
 created: "{{date}}"
-updated: 2026-05-19T22:03
+updated: "{{date}}"
 ---
 
 # {{title}}
@@ -21,6 +23,9 @@ One- or two-sentence summary of the topic.
 Background and scope.
 
 ## ...content sections as the article matures...
+
+## Relevance to Co-Goods
+*(Optional.)* How this concept connects to the project — kept in its own labelled section so the Summary/Overview stay neutral and encyclopedic.
 
 ## Related
 - `[[resources/wiki/...]]` — related wiki articles
@@ -34,6 +39,9 @@ Wiki article schema (template: wiki-article, v1.0.0).
 - Voice: **neutral, encyclopedic**. Open contribution via PR.
 - Distinct from essays (which are POV / authored).
 - Living document — updates in place; git history is the version log.
-- `stage: draft` shows a WIP banner on the website; `stage: published`
-  removes it. URL stays stable across the transition.
+- Stage ladder `stub → draft → published`: `stub` = outline/placeholder,
+  `draft` shows a WIP banner, `published` shows none. URL stays stable across
+  the transitions.
+- `discord:` an optional thread URL for this article's discussion; omit to fall
+  back to the resources-area channel.
 -->

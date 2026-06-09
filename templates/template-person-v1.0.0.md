@@ -1,6 +1,7 @@
 ---
 template: person
 template_version: 1.0.0
+collection: people
 slug: ""
 name: ""
 affiliation: ""
@@ -16,9 +17,9 @@ key_publications: []
 tags: []
 sources_by_author: []
 status: active
-relevance_to_project: ""
+relevance: ""
 created: "{{date}}"
-updated: 2026-05-19T22:03
+updated: "{{date}}"
 ---
 
 # {{name}}

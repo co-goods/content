@@ -1,6 +1,8 @@
 ---
 template: paper
 template_version: 1.0.0
+collection: papers
+discord: ""
 slug: ""
 serial: ""
 title: ""
@@ -16,10 +18,9 @@ language: ""
 peer_reviewed: false
 open_access: false
 summary: ""
-our_take: ""
 key_points: []
 methodology: ""
-relevance_to_project: ""
+relevance: ""
 is-cited: false
 is-featured: false
 status: active
@@ -35,7 +36,7 @@ updated: "{{date}}"
 ## Overview
 Brief overview of the paper and its main findings.
 
-## Our take
+## Relevance to Co-Goods
 Our project's perspective on this paper and how it informs co-goods thinking.
 
 ## Quotes & citations

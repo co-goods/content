@@ -1,6 +1,7 @@
 ---
 template: insight
 template_version: 1.0.0
+collection: insights
 slug: ""
 title: ""
 summary: ""

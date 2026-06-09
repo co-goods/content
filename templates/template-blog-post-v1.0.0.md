@@ -1,6 +1,7 @@
 ---
 template: blog-post
 template_version: 1.0.0
+collection: blog
 slug: ""
 title: ""
 authors: []

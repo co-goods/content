@@ -1,6 +1,7 @@
 ---
 template: observation
 template_version: 1.0.0
+collection: observations
 slug: ""
 title: ""
 authors: []

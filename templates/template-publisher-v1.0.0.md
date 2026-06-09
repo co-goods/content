@@ -1,6 +1,7 @@
 ---
 template: publisher
 template_version: 1.0.0
+collection: publishers
 slug: ""
 name: ""
 publisher_type: ""
