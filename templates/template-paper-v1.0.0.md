@@ -36,9 +36,6 @@ updated: "{{date}}"
 ## Overview
 Brief overview of the paper and its main findings.
 
-## Relevance to Co-Goods
-Our project's perspective on this paper and how it informs co-goods thinking.
-
 ## Quotes & citations
 > "Important quote."
 >

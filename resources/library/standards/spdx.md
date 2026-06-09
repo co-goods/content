@@ -43,15 +43,6 @@ Linux Foundation publishes.
 We catalogue and link to SPDX — we don't host it. The canonical identifier list
 always lives upstream.
 
-## Relevance to Co-Goods
-
-SPDX is the vocabulary the whole content repo leans on. Every per-item
-`license:` field, every library `work_license:`, and the inline
-`[[license:<id>]]` reference all use SPDX identifiers, so a single change to an
-upstream identifier flows through cleanly. Using an existing, machine-readable
-standard — rather than inventing license labels of our own — keeps our content
-interoperable with the wider open-source and open-content ecosystems.
-
 ## Notes
 
 SPDX has two licensing layers worth keeping straight. The **specification** is

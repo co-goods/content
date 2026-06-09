@@ -23,7 +23,3 @@ updated: 2026-06-09
 ## Bio
 
 Researcher at the University of Cambridge's Institute for Manufacturing working on sustainable business model innovation and the shift of traditional manufacturers toward service-based models.
-
-## Relevance to Co-Goods
-
-Co-author of [[resources/library/papers/yang-value-uncaptured-2017|Value uncaptured perspective for sustainable business model innovation]].

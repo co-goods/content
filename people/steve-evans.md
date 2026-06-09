@@ -23,7 +23,3 @@ updated: 2026-06-09
 ## Bio
 
 Professor of industrial sustainability at the University of Cambridge's Institute for Manufacturing, focused on how manufacturers transform toward sustainable and circular business models.
-
-## Relevance to Co-Goods
-
-Co-author of [[resources/library/papers/yang-value-uncaptured-2017|Value uncaptured perspective for sustainable business model innovation]].

@@ -32,9 +32,6 @@ updated: "{{date}}"
 ## Overview
 Brief overview of the book and its main arguments or findings.
 
-## Relevance to Co-Goods
-Our project's perspective on this book and how it informs co-goods thinking.
-
 ## Quotes & citations
 > "Important quote."
 >

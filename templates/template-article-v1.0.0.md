@@ -32,9 +32,6 @@ updated: "{{date}}"
 ## Overview
 Brief overview of the article and its main argument.
 
-## Relevance to Co-Goods
-Our project's perspective on this article and how it informs co-goods thinking.
-
 ## Quotes & citations
 > "Important quote."
 >

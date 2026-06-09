@@ -92,6 +92,24 @@ tags:
 
 A one- or two-sentence summary used in listings, search results, and as a meta description. Common on essays, insights, observations, hypotheses, wiki articles, library entries.
 
+### `relevance:` and `related:` — data in the frontmatter, not the body
+
+Both live in the **YAML frontmatter** and are **rendered by the website** — there is **no hand-written `## Relevance to Co-Goods` or `## Related` section in the body**. The frontmatter is the single source of truth (and the graph/card data); a body section would just duplicate it.
+
+- **`relevance:`** — a short statement of *why this node matters to us* (its relevance to Co-Goods). Use it on nodes we **reference or describe** (library entries, people, organisations) and on concept nodes (wiki) — not on our own first-party content (essays, research, blog), where the relevance is implicit. The site renders it through the markdown pipeline under a "Relevance to Co-Goods" heading, so it may use light emphasis or a second paragraph (a `>` block scalar):
+
+  ```yaml
+  relevance: How to harness network effects as a force *for* a commons, not a moat for extraction.
+  ```
+
+- **`related:`** — a list of bare qualified paths to related nodes; the site renders the Related list at the foot of the page. (Some types carry richer *typed* relations instead — glossary `related_terms`, tags `related_tags`, people `sources_by_author`, the research epistemic chain — left as-is for now.)
+
+  ```yaml
+  related:
+    - resources/wiki/network-coordination
+    - resources/library/papers/smith-network-coordination-2022
+  ```
+
 ### `status:` and `stage:`
 
 Two independent flags: `status:` controls **visibility**, `stage:` controls **maturity**.

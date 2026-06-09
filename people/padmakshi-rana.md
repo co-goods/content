@@ -23,7 +23,3 @@ updated: 2026-06-09
 ## Bio
 
 Researcher whose work at the University of Cambridge's Institute for Manufacturing developed tools and frameworks for embedding sustainability into business models.
-
-## Relevance to Co-Goods
-
-Co-author of [[resources/library/papers/yang-value-uncaptured-2017|Value uncaptured perspective for sustainable business model innovation]].

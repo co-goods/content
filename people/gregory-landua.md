@@ -23,7 +23,3 @@ updated: 2026-06-09
 ## Bio
 
 Co-founder of Terra Genesis International and Regen Network, working at the intersection of regenerative economics, ecological finance, and the measurement of multi-capital value; co-author of the *Eight Forms of Capital* framework and *Regenerative Enterprise*.
-
-## Relevance to Co-Goods
-
-Co-author of [[resources/library/articles/roland-landua-eight-forms-of-capital-2011|The 8 Forms of Capital]].

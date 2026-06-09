@@ -41,10 +41,6 @@ updated: 2026-06-08
 
 Ethan Roland and Gregory Landua (2011) name **eight forms of capital** — *financial, material, living, social, intellectual, experiential, cultural,* and *spiritual* — arguing that wealth flows and accumulates in many currencies, not only money. The framework, rooted in permaculture and regenerative economics, was later expanded into the book *Regenerative Enterprise*.
 
-## Relevance to Co-Goods
-
-Placeholder commentary — the eight-capital frame is a useful counter to money-only accounting and aligns with how co-goods value circulates across social, intellectual, and living capital.
-
 ## Notes
 
 Originally published in *Permaculture Magazine* #68 (2011); freely available [as a PDF](http://www.appleseedpermaculture.com/wp-content/uploads/2011/04/8_Forms_of_Capital_PM68.pdf). Linked, not hosted.
