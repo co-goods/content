@@ -29,7 +29,3 @@ Gamification borrows the feedback structures of games to make participation more
 ## Relevance to Co-Goods
 
 Bears on the participation and engagement ladder — how to invite and sustain contribution without reducing it to point-scoring.
-
-## Related
-
-- *(to be expanded)*

@@ -42,7 +42,3 @@ The point is that regenerative enterprises create and exchange value across all 
 ## Relevance to Co-Goods
 
 A multi-capital account of the value co-goods create and circulate — much of it social, intellectual, and living capital that money-only accounting misses.
-
-## Related
-
-- [[resources/library/articles/roland-landua-eight-forms-of-capital-2011|Roland & Landua (2011), *The 8 Forms of Capital*]]

@@ -37,7 +37,3 @@ It turns "where is value lost?" into a structured search for opportunities.
 ## Relevance to Co-Goods
 
 A vocabulary for the value that extractive, linear models fail to capture — the gap co-goods models aim to surface and redistribute.
-
-## Related
-
-- [[resources/library/papers/yang-value-uncaptured-2017|Yang et al. (2017), *Value uncaptured perspective for sustainable business model innovation*]]

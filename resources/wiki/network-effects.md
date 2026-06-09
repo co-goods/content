@@ -34,7 +34,3 @@ They underpin standards, languages, and platforms, and are a primary source of "
 ## Relevance to Co-Goods
 
 The open question is how to harness network effects as a force *for* a commons — compounding shared value — rather than as a moat for extraction. Distinct from [[resources/wiki/network-coordination|network coordination]], which concerns *how* distributed participants align, not the value created by their number.
-
-## Related
-
-- [[resources/wiki/network-coordination|Network coordination]]
