@@ -20,12 +20,11 @@ key_points:
   - Systems thinking is most useful when applied to mundane coordination problems.
   - Most "complex" systems are actually simple systems coupled together; the coupling is the interesting bit.
   - Commons aren't fragile by nature — they're fragile when their feedback loops are broken.
-relevance_to_project: Example book used to test the library template; do not treat as real research.
+relevance: Example book used to test the library template; do not treat as real research.
 methodology: Survey + worked examples.
 peer_reviewed: false
 open_access: false
 language: English
-our_take: ""
 is-cited: true
 is-featured: false
 status: active
@@ -42,7 +41,7 @@ updated: 2026-05-21T17:52
 
 Placeholder book entry used to exercise the library template with `type: book`. Tests rendering of book-specific bibliographic fields (ISBN, publisher, no journal/volume) and cross-links to [[people/jane-doe|Jane Doe]] as author, plus [[resources/library/publishers/example-press|Example Press]] as publisher.
 
-## Our take
+## Relevance to Co-Goods
 
 Placeholder commentary. In a real entry this would describe how the book's framing of coordination problems intersects with our thinking.
 

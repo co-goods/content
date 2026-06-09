@@ -25,7 +25,7 @@ sources_by_author:
   - smith-network-coordination-2022
   - johnson-systems-thinking-2019
 status: active
-relevance_to_project: Example external author used to test rendering of cited-author profiles.
+relevance: Example external author used to test rendering of cited-author profiles.
 example: true
 created: 2026-05-21
 updated: 2026-05-21T17:52

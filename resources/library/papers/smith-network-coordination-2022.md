@@ -23,12 +23,11 @@ key_points:
   - Asynchronous participation can produce coherent coordination outcomes given the right signalling structures.
   - Engagement density correlates with the system's ability to absorb participation variance.
   - Conventional centralised models underestimate the role of low-frequency contributors.
-relevance_to_project: Example paper used to test the library template; do not treat as real research.
+relevance: Example paper used to test the library template; do not treat as real research.
 methodology: Theoretical framework with two illustrative case studies.
 peer_reviewed: true
 open_access: true
 language: English
-our_take: ""
 is-cited: true
 is-featured: true
 status: active
@@ -45,7 +44,7 @@ updated: 2026-05-21T17:52
 
 This is a placeholder paper used to exercise the library template. It exists to test how the website renders a `paper`-type library entry with full bibliographic metadata, an author reference to [[people/jane-doe|Jane Doe]], and a publication chain through [[resources/library/publications/example-journal|Example Journal]] published by [[resources/library/publishers/example-press|Example Press]].
 
-## Our take
+## Relevance to Co-Goods
 
 Placeholder commentary. In a real entry this would summarise how the paper informs our thinking and where we agree / disagree.
 
