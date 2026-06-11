@@ -72,22 +72,22 @@ Each template's `<!-- schema notes -->` block documents its per-template fields.
 
 ## Wikilinks
 
-Use qualified-path Obsidian-style wikilinks in body markdown:
+Link concepts (glossary anchors) **bare**; link everything else with **qualified paths**:
 
 ```markdown
-The [[tags/coordination]] concept by [[people/jane-doe|Jane Doe]],
+The [[coordination]] concept by [[people/jane-doe|Jane Doe]],
 introduced in [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]], shows how
-[[tags/network-effects|network effects]] can drive open systems.
+[[network-effects|network effects]] can drive open systems.
 ```
 
-Bare wikilinks (no slash) default to `/topics/<slug>` if a topic-aggregation page exists; otherwise they cause a build error. When in doubt, qualify.
+A bare wikilink names a glossary concept — it resolves to the concept's topic hub if it's a topic (`topic: true`), otherwise its glossary entry. Anything that isn't a concept (essays, library, people, …) takes a qualified path. An unknown bare concept is a build error.
 
 In frontmatter arrays, use bare slugs — the collection is implicit from the field name:
 
 ```yaml
 sources: [smith-network-coordination-2022]
 authors: [jane-doe]
-tags: [antirival, network-effects, sharing-economy]
+tags: [antirival-goods, network-effects, sharing-economy]
 ```
 
 See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md).

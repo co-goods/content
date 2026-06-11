@@ -51,12 +51,12 @@ Chain rule: every insight must have at least one upstream link — either
 `sources:` (when the insight is a direct theoretical extension of a published
 source). Both can be populated; neither can be empty.
 
-Wikilinks use qualified paths:
+Wikilinks: concepts (glossary anchors) bare; everything else qualified.
 
 - `[[resources/library/papers/olleros-antirival-goods|Olleros (2018)]]` → /resources/library/papers/olleros-antirival-goods
 - `[[people/f-xavier-olleros|F. Xavier Olleros]]` → /people/f-xavier-olleros
 - `[[research/observations/<slug>]]`, `[[research/hypotheses/<slug>]]`, `[[resources/wiki/<slug>]]`,
-  `[[thinking/essays/<slug>]]`, `[[resources/glossary/<slug>]]`, etc.
-- Bare `[[antirival]]` resolves to `/topics/antirival` **if a topic-aggregation
-  page exists** (slug appears in 2+ collections); otherwise build error.
+  `[[thinking/essays/<slug>]]`, etc.
+- Bare `[[antirival-goods]]` names a glossary concept — resolves to its topic hub if
+  `topic: true`, else its glossary entry. Unknown concept → build error.
 -->

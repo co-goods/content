@@ -9,6 +9,8 @@ summary: A product, service, or protocol becomes more valuable to each participa
 relevance: How to harness network effects as a force *for* a commons — compounding shared value — rather than as a moat for extraction.
 tags:
   - network-effects
+topics:
+  - network-effects
 related:
   - resources/wiki/network-coordination
 status: active

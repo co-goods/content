@@ -57,6 +57,12 @@ Both look similar from outside: each has multiple folders sharing a URL prefix. 
 
 In `library/`, books are books and papers are papers — different things sharing a shelf. In `conventions/`, naming docs and frontmatter docs are both doc articles — the same kind of thing organised by topic.
 
+## Tags and topics are glossary roles, not collections
+
+There is no `tags` or `topics` collection. The **glossary** is the canonical anchor for every concept: a tag is a glossary entry flagged `tag: true`, a topic is one flagged `topic: true`. Records reference them by slug — `tags:` (granular, "touches on") and `topics:` (primary, "is about") — and the website derives the tag listings and `/topics/<slug>` hubs from those references. See `glossary-schema.md` and `wikilinks.md`.
+
+The glossary is also the one flat collection that uses **alphabetical letter-folders** for browsing — `resources/glossary/<letter>/<slug>.md` — while its URLs stay flat (`/resources/glossary/<slug>`), the same folder-for-browse / flatten-in-URL pattern blog uses.
+
 ## Collection names
 
 A collection's name is its identifier. Items declare it in YAML (`collection: <name>`). The website's registry maps each name to a folder + URL pattern + template.
@@ -71,7 +77,7 @@ Examples:
 | Item path | `collection:` value |
 |---|---|
 | `resources/wiki/<slug>.md` | `wiki` |
-| `resources/glossary/<slug>.md` | `glossary` |
+| `resources/glossary/<letter>/<slug>.md` | `glossary` |
 | `resources/library/books/<slug>.md` | `books` |
 | `resources/library/papers/<slug>.md` | `papers` |
 | `resources/library/publishers/<slug>.md` | `publishers` |
@@ -89,7 +95,6 @@ Examples:
 | `blog/<y>/<m>/<slug>.md` | `blog` |
 | `people/<slug>.md` | `people` |
 | `organizations/<slug>.md` | `organizations` |
-| `tags/<slug>.md` | `tags` |
 
 ## Template names
 
@@ -110,7 +115,6 @@ Each collection has one template. Template names follow one rule:
 | publishers | publisher |
 | publications | publication |
 | people | person |
-| tags | tag |
 | blog | blog-post |
 | conventions / schemas / contributing | doc |
 | lightpapers / whitepapers | lightpaper / whitepaper |

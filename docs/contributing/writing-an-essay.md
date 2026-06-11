@@ -55,7 +55,7 @@ Use qualified-path wikilinks to other content:
 
 ### Bare wikilinks
 
-`[[antirival]]` without qualification resolves to `/topics/antirival` if a topic-aggregation page exists for that slug. If not, the build emits an error — qualification is required.
+`[[antirival-goods]]` without qualification resolves to `/topics/antirival` if a topic-aggregation page exists for that slug. If not, the build emits an error — qualification is required.
 
 ## Submitting
 

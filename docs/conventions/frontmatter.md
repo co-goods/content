@@ -33,7 +33,7 @@ That's the universal contract. Every item, in every collection, carries these fo
 
 The name of the schema/template this item follows. Singular entity name:
 
-- `essay`, `wiki-article`, `glossary-item`, `book`, `paper`, `publisher`, `publication`, `observation`, `insight`, `hypothesis`, `person`, `tag`, `blog-post`, `doc`, `lightpaper`, `whitepaper`, …
+- `essay`, `wiki-article`, `glossary-item`, `book`, `paper`, `publisher`, `publication`, `observation`, `insight`, `hypothesis`, `person`, `blog-post`, `doc`, `lightpaper`, `whitepaper`, …
 
 Matches the template filename `templates/template-<entity>-v<version>.md`.
 
@@ -47,7 +47,7 @@ This is a back-reference — the renderer uses it to dispatch on version; migrat
 
 The collection this item belongs to. Matches a registered collection in the website's registry.
 
-For flat collections, just the leaf: `essays`, `books`, `papers`, `wiki`, `people`, `tags`, …
+For flat collections, just the leaf: `essays`, `books`, `papers`, `wiki`, `people`, `glossary`, …
 
 For sub-collections of a nested collection, the full path: `conventions/naming`, `conventions/frontmatter`, …
 
@@ -57,7 +57,7 @@ See `taxonomy.md` for the model.
 
 ### `title:`
 
-Human-readable title. Required by most templates. A few use `name:` instead (glossary items, people, tags, organisations) — see the template's schema notes.
+Human-readable title. Required by all item templates. (Glossary items moved from `name:` to `title:` in glossary-item v1.1.0; people and organisations may still use `name:` per their own schema notes.)
 
 ## Per-template fields
 
@@ -77,16 +77,23 @@ When starting a new item, copy the latest template — it documents its own sche
 
 Several optional patterns appear in multiple templates:
 
-### `tags:`
+### `tags:` and `topics:`
 
-Many content types accept tags — a list of bare slugs referring to entries in the `tags` collection:
+Both reference **glossary slugs** (concepts are anchored in the glossary — there is no `tags` collection). They do different jobs:
+
+- **`tags:`** — many, granular: the concepts a record *touches on / relates to*. Each must resolve to a glossary entry flagged `tag: true`.
+- **`topics:`** — few: the record's *primary subject(s)* — what it *is about*. Each must resolve to an entry flagged `topic: true`, and puts the record on those `/topics/<slug>` hubs.
 
 ```yaml
 tags:
-  - antirival
+  - antirival-goods
   - network-effects
   - sharing-economy
+topics:
+  - network-effects        # this record is primarily about network effects
 ```
+
+Unresolved or wrong-flagged references fail the build (hard enforcement). See [[docs/schemas/glossary-schema|the glossary schema]].
 
 ### `summary:`
 
@@ -102,7 +109,7 @@ Both live in the **YAML frontmatter** and are **rendered by the website** — th
   relevance: How to harness network effects as a force *for* a commons, not a moat for extraction.
   ```
 
-- **`related:`** — a list of bare qualified paths to related nodes; the site renders the Related list at the foot of the page. (Some types carry richer *typed* relations instead — glossary `related_terms`, tags `related_tags`, people `sources_by_author`, the research epistemic chain — left as-is for now.)
+- **`related:`** — a list of bare qualified paths to related nodes; the site renders the Related list at the foot of the page. (Some types carry richer *typed* relations instead — glossary `relationships.related_terms`, people `sources_by_author`, the research epistemic chain — left as-is for now.)
 
   ```yaml
   related:

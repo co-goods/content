@@ -10,6 +10,8 @@ relevance: A vocabulary for the value that extractive, linear models fail to cap
 tags:
   - value
   - business-models
+topics:
+  - regenerative-economics
 related:
   - resources/library/papers/yang-value-uncaptured-2017
 status: active

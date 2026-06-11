@@ -58,12 +58,12 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full PR-based contribution fl
 
 ## Wikilinks
 
-Use qualified-path Obsidian-style wikilinks in body markdown:
+Link concepts (glossary anchors) **bare**; link everything else with **qualified paths**:
 
 ```markdown
-The [[tags/coordination]] concept by [[people/jane-doe|Jane Doe]],
+The [[coordination]] concept by [[people/jane-doe|Jane Doe]],
 introduced in [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]], shows
-how [[tags/network-effects|network effects]] can drive open systems.
+how [[network-effects|network effects]] can drive open systems.
 ```
 
 In frontmatter arrays, use bare slugs — the collection is implicit from the field name:
@@ -71,7 +71,7 @@ In frontmatter arrays, use bare slugs — the collection is implicit from the fi
 ```yaml
 sources: [smith-network-coordination-2022]
 authors: [jane-doe]
-tags: [antirival, network-effects, sharing-economy]
+tags: [antirival-goods, network-effects, sharing-economy]
 ```
 
 See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md) for the full convention.
