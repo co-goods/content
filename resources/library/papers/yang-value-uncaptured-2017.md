@@ -35,6 +35,8 @@ tags:
   - value
   - business-models
   - sustainability
+topics:
+  - regenerative-economics
 created: 2026-06-08
 updated: 2026-06-08
 ---

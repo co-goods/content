@@ -24,8 +24,8 @@ added: 2026-06-03
 created: 2026-06-03
 updated: 2026-06-03
 tags:
-  - licensing
-  - standards
+  - license
+  - standard
 ---
 
 # SPDX (Software Package Data Exchange)
@@ -54,5 +54,5 @@ website's renderer without further permission.
 
 ## Related
 
-- Glossary: [[resources/glossary/spdx|SPDX]]
+- Glossary: [[spdx|SPDX]]
 - Convention: [[docs/conventions/licensing|Licensing]]

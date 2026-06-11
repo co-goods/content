@@ -12,11 +12,21 @@ stage: draft
 
 # Wikilinks
 
-How wikilinks work in the Co-Goods content repo — the qualified-path syntax, custom display text, bare-slug behaviour, and frontmatter arrays.
+How wikilinks work in the Co-Goods content repo. The one rule to remember: **concepts (glossary anchors) are linked bare; everything else is qualified.**
 
-## Qualified-path syntax (Obsidian-native)
+## Concepts are linked bare
 
-Wikilinks use **qualified paths** that mirror the website URL. The path inside the brackets is the URL the link resolves to.
+A glossary concept — any word/term/phrase that has a glossary entry — is linked with a **bare** slug (no slashes):
+
+```markdown
+[[antirival-goods]]   [[network-effects]]   [[demand-coordination]]
+```
+
+A bare link resolves to the concept's **topic hub** (`/topics/<slug>`) if the entry is `topic: true`, otherwise to the **glossary entry** (`/resources/glossary/<slug>`). Bare links work in Obsidian regardless of the entry's letter-folder, and on the site via the same routing — which is why concepts use them. There is no `[[tags/...]]` form any more; tags are glossary roles, not a collection.
+
+## Qualified paths — everything else (Obsidian-native)
+
+For non-concept targets (essays, library items, people, research, wiki articles, docs), use **qualified paths** that mirror the website URL. The path inside the brackets is the URL the link resolves to.
 
 ```markdown
 [[resources/library/papers/smith-network-coordination-2022]]
@@ -25,10 +35,9 @@ Wikilinks use **qualified paths** that mirror the website URL. The path inside t
 [[research/observations/weekend-readership-spike]]
 [[thinking/essays/on-collaboration]]
 [[people/jane-doe]]
-[[tags/antirival]]
 ```
 
-The path uses the URL navigation prefix (`resources/`, `thinking/`, `research/`, `docs/`) — wikilinks are about *where on the site* you're pointing, not *what collection* the target belongs to.
+The path uses the URL navigation prefix (`resources/`, `thinking/`, `research/`, `docs/`) — wikilinks are about *where on the site* you're pointing.
 
 ## Custom display text
 
@@ -42,21 +51,16 @@ Add a display string after a pipe:
 
 When omitted, the rendered link text is derived from the target's title.
 
-## Bare wikilinks → topic pages
+## Bare-link resolution (declared topics)
 
-A bare slug (no slashes) resolves to a **topic aggregation page** if one exists:
-
-```markdown
-[[antirival]]   → /topics/antirival   (if the slug appears in 2+ collections)
-```
-
-If no topic page exists for the slug, the build fails with an error message pointing at the offending wikilink. This forces qualification — every wikilink either targets a specific URL or an existing topic page.
-
-To intentionally link to a tag (not a topic page), qualify it:
+A bare slug resolves against the glossary anchor:
 
 ```markdown
-[[tags/antirival]]
+[[network-effects]]   → /topics/network-effects        (entry is topic: true)
+[[antirival-goods]]         → /resources/glossary/antirival-goods  (entry exists, not a topic)
 ```
+
+Topic pages are **declared** (`topic: true` on the entry), not derived from a slug appearing in multiple collections. A bare slug with **no glossary entry at all** is a build error pointing at the offending link — so every bare link names a real concept.
 
 ## Inline license references
 
@@ -74,7 +78,7 @@ The data is [[license:CC0-1.0]]; the prose is [[license:CC-BY-SA-4.0]].
 
 It's a *highlight*, not a navigation link — use it to call out the license of
 something you're discussing inline. The value is an
-[[resources/glossary/spdx|SPDX]] identifier (the same codes used in the
+[[spdx|SPDX]] identifier (the same codes used in the
 `license:` and `work_license:` frontmatter fields). It works in any markdown
 body — essays, wiki, docs, library entries.
 
@@ -92,19 +96,18 @@ In frontmatter array fields, slugs stay bare — the collection is implicit from
 sources: [olleros-antirival-goods, smith-network-coordination-2022]   # implicit: library items
 observations: [weekend-readership-spike]                              # implicit: observations
 authors: [pontus-karlsson, jane-doe]                                   # implicit: people
-tags: [antirival, network-effects, sharing-economy]                    # implicit: tags
+tags: [antirival-goods, network-effects, sharing-economy]                    # glossary entries flagged tag: true
+topics: [demand-coordination]                                          # glossary entries flagged topic: true
 related_insights: [asynchronous-coordination-density]                  # implicit: insights
 ```
 
-This keeps frontmatter compact and unambiguous. The website resolves each bare slug to the right URL based on which field it came from.
+This keeps frontmatter compact and unambiguous. The website resolves each bare slug to the right URL based on which field it came from. `tags:` and `topics:` both reference glossary slugs — `tags:` is "touches on" (many, granular), `topics:` is "is about" (few, the record's primary subject); each must resolve to an entry carrying the matching flag (`tag: true` / `topic: true`) or the build fails.
 
 For library items, the field name is just `sources:` — the website knows to look across all library sub-collections (books, papers, podcasts, etc.) for the matching slug. This works because library slugs are globally unique within the library namespace.
 
-## Cross-collection topics
+## Topics (declared, reference-based)
 
-When the same slug appears in 2+ collections (e.g., a `tags/antirival` tag and a `resources/wiki/antirival` wiki article on the same concept), the build generates a **topic page** at `/topics/<slug>` that aggregates all instances. Bare wikilinks to that slug then resolve to the topic page.
-
-When the slug appears in only one collection, no topic page is generated, and bare wikilinks to it fail at build time — qualify them to be explicit.
+A topic hub at `/topics/<slug>` exists when the glossary entry is `topic: true` — declared, any size, even one item. Its membership is built from records that **reference** the slug in their `tags:` / `topics:` frontmatter (not from records sharing the slug), so differently-slugged records all aggregate under the one concept. See [[docs/schemas/glossary-schema|the glossary schema]] for the anchor model.
 
 ## Code spans are left alone
 

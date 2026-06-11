@@ -39,7 +39,6 @@ No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-folder naming. The fil
 | Publications | `<publication-slug>` | `nature`, `the-atlantic`, `the-knowledge-project` |
 | People | `<firstname-lastname>` | `jane-doe`, `f-xavier-olleros` |
 | Glossary items | Base form canonical | `co-goods` (not `co-goodsing`); grammatical variants live under `classes[type=verb].forms` per the dictionary schema |
-| Tags | Single bare term | `antirival`, `network-effects` |
 | Essays, wiki articles, insights, observations, hypotheses | Descriptive short slug | `on-collaboration`, `network-coordination`, `asynchronous-coordination-density` |
 | Blog posts | Descriptive short slug | `welcome-to-the-blog` |
 | Doc articles | Descriptive short slug | `slug-rules`, `required-fields` |
@@ -59,7 +58,7 @@ Some library items get a **serial** in YAML frontmatter (never in the filename o
 | `l-#####` | **Library items only** (books, papers, podcasts, etc.) | Every library item in the repo gets one. Rule: **in repo = has a serial.** Items kept externally but not promoted into the repo have no serial. |
 | `x-#####` | **Example library items only** | Placeholder content used to exercise the website's library templates without claiming research-domain status. Keeps `l-00001+` reserved for the first curated library entries. |
 
-Other content types (people, tags, insights, observations, hypotheses, wiki, essays, reports, glossary, blog posts, docs) do **not** use serials.
+Other content types (people, insights, observations, hypotheses, wiki, essays, reports, glossary, blog posts, docs) do **not** use serials.
 
 `resources/library/INDEX.md` is the registry of assigned serials.
 

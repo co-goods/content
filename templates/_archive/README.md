@@ -22,5 +22,6 @@ Superseded template versions live here. The folder serves two purposes:
 
 - `template-library-v1.md` — the category template covering book / paper / podcast / publisher / publication. Superseded by per-entity templates (`book`, `paper`, `publisher`, `publication`) at `templates/`.
 - `template-report-v1.md` — the category template covering lightpaper / whitepaper / position-paper / model-paper. Superseded; the per-type split lands when content does.
+- `template-tag-v1.0.0.md` — the standalone tag template. Retired: tags are no longer files but roles on glossary entries (`tag: true`); see the `glossary-item` template and `docs/schemas/glossary-schema.md` (glossary-as-anchor model).
 
 See `docs/conventions/templates-and-versioning.md` for the full convention.

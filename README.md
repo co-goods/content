@@ -17,7 +17,7 @@ The taxonomy and conventions live alongside the content under `docs/conventions/
 |---|---|---|
 | `essays` | `/thinking/essays/<slug>` | `thinking/essays/` |
 | `wiki` | `/resources/wiki/<slug>` | `resources/wiki/` |
-| `glossary` | `/resources/glossary/<slug>` | `resources/glossary/` |
+| `glossary` | `/resources/glossary/<slug>` | `resources/glossary/<letter>/` |
 | `books` | `/resources/library/books/<slug>` | `resources/library/books/` |
 | `papers` | `/resources/library/papers/<slug>` | `resources/library/papers/` |
 | `publishers` | `/resources/library/publishers/<slug>` | `resources/library/publishers/` |
@@ -28,7 +28,6 @@ The taxonomy and conventions live alongside the content under `docs/conventions/
 | `blog` | `/blog/<slug>` *(flat URL)* | `blog/<year>/<month>/<slug>.md` |
 | `people` | `/people/<slug>` | `people/` |
 | `organizations` | `/organizations/<slug>` | `organizations/` |
-| `tags` | `/tags/<slug>` | `tags/` |
 | `conventions` (docs) | `/docs/conventions/<slug>` | `docs/conventions/` |
 | `schemas` (docs) | `/docs/schemas/<slug>` | `docs/schemas/` |
 | `contributing` (docs) | `/docs/contributing/<slug>` | `docs/contributing/` |
@@ -58,12 +57,12 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full PR-based contribution fl
 
 ## Wikilinks
 
-Use qualified-path Obsidian-style wikilinks in body markdown:
+Link concepts (glossary anchors) **bare**; link everything else with **qualified paths**:
 
 ```markdown
-The [[tags/coordination]] concept by [[people/jane-doe|Jane Doe]],
+The [[coordination]] concept by [[people/jane-doe|Jane Doe]],
 introduced in [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]], shows
-how [[tags/network-effects|network effects]] can drive open systems.
+how [[network-effects|network effects]] can drive open systems.
 ```
 
 In frontmatter arrays, use bare slugs — the collection is implicit from the field name:
@@ -71,26 +70,10 @@ In frontmatter arrays, use bare slugs — the collection is implicit from the fi
 ```yaml
 sources: [smith-network-coordination-2022]
 authors: [jane-doe]
-tags: [antirival, network-effects, sharing-economy]
+tags: [antirival-goods, network-effects, sharing-economy]
 ```
 
 See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md) for the full convention.
-
-## Current content
-
-**Curated:**
-
-- **1 person (co-goods-team):** Pontus Karlsson (project lead)
-- **7 tags:** antirival, network-effects, sharing-economy, commons, goods-theory, nonrival, co-goods
-
-**Example content** (`example: true`; placeholder data used to exercise the website's templates, filtered from production renders, easy to remove in bulk):
-
-- **1 book** (serial `x-00002`), **1 paper** (serial `x-00001`), **1 publisher**, **1 publication**
-- **1 person** (external author placeholder)
-- **2 observations**, **1 insight**, **1 hypothesis** (exercises the epistemic chain)
-- **1 wiki article**, **1 essay**, **1 blog post**, **1 glossary item**, **1 tag** (coordination)
-
-The first curated book / paper / podcast / etc. lands with serial `l-00001`.
 
 ## License
 

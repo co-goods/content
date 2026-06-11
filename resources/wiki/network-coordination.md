@@ -46,7 +46,7 @@ This wiki article is placeholder content used to exercise the wiki template — 
 
 ## See also
 
-- Glossary entry: [[resources/glossary/network-coordination]] (shares slug — exercises topic-aggregation page at `/topics/network-coordination`).
+- Glossary entry: [[network-coordination]] — the concept anchor; this wiki article is its long-form facet on the same slug.
 - Essay: [[thinking/essays/on-collaboration|On Collaboration]] for a more POV treatment.
 - Insight: [[research/insights/asynchronous-coordination-density]] — synthesises observations and library work.
 - Hypothesis: [[research/hypotheses/engagement-density-correlation]] — testable prediction derived from the insight.

@@ -38,7 +38,7 @@ The rest of this guide covers research and content contributions.
 |---|---|---|
 | Essay (POV) | `thinking/essays/<slug>.md` | `template-essay-v1.0.0.md` |
 | Wiki article (neutral encyclopedic) | `resources/wiki/<slug>.md` | `template-wiki-article-v1.0.0.md` |
-| Glossary item | `resources/glossary/<slug>.md` | `template-glossary-item-v1.0.0.md` |
+| Glossary item | `resources/glossary/<letter>/<slug>.md` | `template-glossary-item-v1.1.0.md` |
 | Book | `resources/library/books/<slug>.md` | `template-book-v1.0.0.md` |
 | Paper | `resources/library/papers/<slug>.md` | `template-paper-v1.0.0.md` |
 | Publisher | `resources/library/publishers/<slug>.md` | `template-publisher-v1.0.0.md` |
@@ -48,7 +48,6 @@ The rest of this guide covers research and content contributions.
 | Hypothesis | `research/hypotheses/<slug>.md` | `template-hypothesis-v1.0.0.md` |
 | Blog post | `blog/<year>/<month>/<slug>.md` | `template-blog-post-v1.0.0.md` |
 | Person profile | `people/<slug>.md` | `template-person-v1.0.0.md` |
-| Tag | `tags/<slug>.md` | `template-tag-v1.0.0.md` |
 | Doc article | `docs/<collection>/<slug>.md` (or `docs/<collection>/<sub-collection>/<slug>.md`) | `template-doc-v1.0.0.md` |
 
 For books and papers, the maintainer assigns the next `l-#####` serial on merge and updates `resources/library/INDEX.md`. Example content (placeholder, `example: true`) uses the `x-#####` namespace instead.
@@ -62,7 +61,7 @@ See [`docs/conventions/taxonomy.md`](./docs/conventions/taxonomy.md) for the ful
 Every content file starts with a YAML frontmatter block. The universal contract is:
 
 ```yaml
-template: <entity name>           # singular: essay, book, paper, doc, tag, person, …
+template: <entity name>           # singular: essay, book, paper, doc, person, glossary-item, …
 template_version: 1.0.0
 collection: <collection name>     # plural: essays, books, papers, conventions/naming, …
 title: "..."
@@ -72,22 +71,22 @@ Each template's `<!-- schema notes -->` block documents its per-template fields.
 
 ## Wikilinks
 
-Use qualified-path Obsidian-style wikilinks in body markdown:
+Link concepts (glossary anchors) **bare**; link everything else with **qualified paths**:
 
 ```markdown
-The [[tags/coordination]] concept by [[people/jane-doe|Jane Doe]],
+The [[coordination]] concept by [[people/jane-doe|Jane Doe]],
 introduced in [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]], shows how
-[[tags/network-effects|network effects]] can drive open systems.
+[[network-effects|network effects]] can drive open systems.
 ```
 
-Bare wikilinks (no slash) default to `/topics/<slug>` if a topic-aggregation page exists; otherwise they cause a build error. When in doubt, qualify.
+A bare wikilink names a glossary concept — it resolves to the concept's topic hub if it's a topic (`topic: true`), otherwise its glossary entry. Anything that isn't a concept (essays, library, people, …) takes a qualified path. An unknown bare concept is a build error.
 
 In frontmatter arrays, use bare slugs — the collection is implicit from the field name:
 
 ```yaml
 sources: [smith-network-coordination-2022]
 authors: [jane-doe]
-tags: [antirival, network-effects, sharing-economy]
+tags: [antirival-goods, network-effects, sharing-economy]
 ```
 
 See [`docs/conventions/wikilinks.md`](./docs/conventions/wikilinks.md).
