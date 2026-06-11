@@ -53,7 +53,7 @@ The `slug` uses the base form of the term; grammatical variants live inside the 
 - `resources/glossary/c/co-goods.md` — base form
 - `co-goodsing` (verb), `co-goodser` (noun-agent) — declared under `classes[type=verb].forms`, **not** as separate entries.
 
-For an adjective/noun-phrase pair, the **adjective is the base form** and the noun phrase is an alias: `antirival` (base) with `aliases: [antirival good, antirival goods]`.
+Where a concept is naturally a **noun phrase** ("antirival goods"), that phrase is the entry's `title`, the slug is its kebab form (`antirival-goods`), and the bare adjective is an **alias**: `slug: antirival-goods`, `title: Antirival goods`, `aliases: [antirival, antirivalness, antirival good]`.
 
 ## Minimum frontmatter
 

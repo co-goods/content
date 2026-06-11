@@ -100,7 +100,7 @@ Examples:
 
 Each collection has one template. Template names follow one rule:
 
-- **Singular, the kind of one item.** A book, an essay, a person, a tag, a doc, a glossary-item. The folder + URL + collection name stay plural; the template name describes one item.
+- **Singular, the kind of one item.** A book, an essay, a person, a doc, a glossary-item. The folder + URL + collection name stay plural; the template name describes one item.
 
 | Collection (plural) | Template (singular) |
 |---|---|
