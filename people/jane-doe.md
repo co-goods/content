@@ -19,11 +19,8 @@ aliases: []
 key_publications:
   - Network Coordination Under Asynchronous Participation (2022)
   - Systems Thinking for the Curious (2019)
-tags:
-  - coordination
-sources_by_author:
-  - smith-network-coordination-2022
-  - johnson-systems-thinking-2019
+tags: []
+sources_by_author: []
 status: active
 relevance: Example external author used to test rendering of cited-author profiles.
 example: true
@@ -35,7 +32,7 @@ updated: 2026-05-21T17:52
 
 ## Bio
 
-Placeholder external-author profile used to exercise the people template. Affiliated with Example University's Department of Coordination Studies. Wrote [[resources/library/papers/smith-network-coordination-2022|the 2022 paper on network coordination]] and the earlier book [[resources/library/books/johnson-systems-thinking-2019|Systems Thinking for the Curious (2019)]].
+Placeholder external-author profile used to exercise the people template. Affiliated with Example University's Department of Coordination Studies.
 
 ## Notes
 
