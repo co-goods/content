@@ -38,7 +38,7 @@ No `SOURCE.md` / `AUTHOR.md` / `REPORT.md` generic-inside-folder naming. The fil
 | Publishers | `<organisation-slug>` | `example-press`, `oxford-university-press` |
 | Publications | `<publication-slug>` | `nature`, `the-atlantic`, `the-knowledge-project` |
 | People | `<firstname-lastname>` | `jane-doe`, `f-xavier-olleros` |
-| Glossary items | Base form canonical | `co-goods` (not `co-goodsing`); grammatical variants live under `classes[type=verb].forms` per the dictionary schema |
+| Glossary items | Base form, **singular** | `wicked-problem` (the plural `wicked problems` is an alias); `co-goods` (not `co-goodsing`), with grammatical variants under `classes[type=verb].forms`. **Goods-cluster exception:** keep the established economics plural — `rival-goods`, `nonrival-goods`, `antirival-goods` |
 | Essays, wiki articles, insights, observations, hypotheses | Descriptive short slug | `on-collaboration`, `network-coordination`, `asynchronous-coordination-density` |
 | Blog posts | Descriptive short slug | `welcome-to-the-blog` |
 | Doc articles | Descriptive short slug | `slug-rules`, `required-fields` |

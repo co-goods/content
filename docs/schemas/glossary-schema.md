@@ -53,20 +53,24 @@ The `slug` uses the base form of the term; grammatical variants live inside the 
 - `resources/glossary/c/co-goods.md` — base form
 - `co-goodsing` (verb), `co-goodser` (noun-agent) — declared under `classes[type=verb].forms`, **not** as separate entries.
 
-Where a concept is naturally a **noun phrase** ("antirival goods"), that phrase is the entry's `title`, the slug is its kebab form (`antirival-goods`), and the bare adjective is an **alias**: `slug: antirival-goods`, `title: Antirival goods`, `aliases: [antirival, antirivalness, antirival good]`.
+Where a concept is naturally a **noun phrase** ("antirival goods"), that phrase is the entry's `title`, the slug is its kebab form (`antirival-goods`), and the bare adjective is an **alias**: `slug: antirival-goods`, `title: Antirival goods`, `aliases: [antirival, antirival good]`. A *property noun* for the same axis (`rivalry`, `nonrivalness`, `antirivalness`) names a **distinct concept** — the property, not the good — so it gets its **own entry** and a `related_terms` edge, never an alias of the good.
+
+Singular is the default headword, with the plural as an alias (`wicked-problem`, alias `wicked problems`). The goods cluster is the documented exception — it keeps the established economics plural (`rival-goods`, `nonrival-goods`, `antirival-goods`). See `file-naming.md`.
 
 ## Minimum frontmatter
 
 ```yaml
 ---
 template: glossary-item
-template_version: 1.1.0
+template_version: 1.2.0
 collection: glossary
 slug: <kebab-case-base-form>
 title: <human-readable form>
 type: word | term | comparison
 tag: true            # only if it is a tag (omit otherwise)
 topic: true          # only if it is a topic (omit otherwise)
+aliases:             # optional — surface variants of the SAME concept
+  - <plural / bare adjective / spelling / acronym>
 classes:
   - type: noun | verb | adjective | adverb
     definitions:
@@ -74,6 +78,8 @@ classes:
 relationships:
   related_terms:
     - <other-glossary-slug>
+not_to_be_confused_with:   # optional — distinct concepts it is commonly conflated with
+  - <other-glossary-slug>
 status: active
 stage: draft
 created: <YYYY-MM-DD>
@@ -81,12 +87,36 @@ updated: <YYYY-MM-DD>
 ---
 ```
 
-- **`type`** is the *entry kind*: `word` (a single lexical word), `term` (a multi-word term of art), or `comparison` (an entry that explicitly contrasts two+ concepts, carrying comparison-target slugs). It is distinct from `classes[].type`, the *grammatical* class.
+- **`type`** is the *entry kind*: `word` (a single lexical word), `term` (a multi-word term of art), or `comparison` (an entry that contrasts two concepts — see "Comparison entries" below). It is distinct from `classes[].type`, the *grammatical* class.
 - **`relationships.related_terms`** is the single related-concepts list (it absorbs what tag files used to call `related_tags`). Every slug must resolve to a glossary entry — there is **hard build-enforcement** against dangling concept edges.
 
 ## Aliases and their lifecycle
 
-`aliases:` lists alternate names for the *same* concept (e.g. `antirivalness`, `antirival goods`). Aliases resolve to, and are findable as, the host entry. If an alias later gains its own weight or its meaning diverges, **break it out into its own entry** — at which point it stops being an alias and becomes a `related_terms` edge instead. It stays findable on the website throughout.
+`aliases:` lists alternate names for the *same* concept — surface variants only: the plural form, the bare adjective of a noun-phrase headword, an alternate spelling, an acronym (e.g. `antirival good`, `antirival`). Aliases resolve to, and are findable as, the host entry. If an alias later gains its own weight or its meaning diverges, **break it out into its own entry** — at which point it stops being an alias and becomes a `related_terms` edge instead. It stays findable on the website throughout.
+
+This is exactly what happened to `antirivalness`: it began as an alias of `antirival-goods`, then became its **own entry** — the *property* (a good gets more valuable the more it is shared), distinct from the *good* — with a `related_terms` edge between the two. The lesson: a word that names a different concept is never an alias, even when the words look related.
+
+## Comparison entries
+
+An entry with `type: comparison` contrasts two concepts rather than defining one. It carries a `comparison` block instead of grammatical `classes`:
+
+```yaml
+type: comparison
+comparison:
+  terms: [physical, digital]        # the two glossary slugs being compared
+  description:                      # prose framing of the difference (one or more paragraphs)
+    - "Physical and digital are routinely opposed, but ..."
+  detailed_comparison:              # aspect-by-aspect; term_a -> terms[0], term_b -> terms[1]
+    - aspect: "What kind of category it is"
+      term_a: "A mode of existence — ..."
+      term_b: "A mode of representation — ..."
+```
+
+`comparison.terms` must resolve to glossary entries (so the site links them and pulls their definitions). The website renders a comparison with a dedicated view — the `description` plus an aspect table — not the noun/verb class blocks.
+
+## Not to be confused with
+
+`not_to_be_confused_with:` lists glossary slugs this concept is commonly conflated with but is **distinct** from (e.g. the `physical-vs-digital` comparison vs `non-physical`). It renders as a short "Not to be confused with" note. Unlike `aliases` (which assert *sameness*), this field asserts *difference* — use it for exactly the distinctions that keep getting blurred.
 
 ## Richer fields
 
