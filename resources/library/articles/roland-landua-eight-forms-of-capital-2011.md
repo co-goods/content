@@ -2,7 +2,7 @@
 template: article
 template_version: 1.0.0
 collection: articles
-discord: https://discord.com/channels/1241649853658824776/1513644828339212600
+discord: 
 slug: roland-landua-eight-forms-of-capital-2011
 serial: l-00003
 title: The 8 Forms of Capital

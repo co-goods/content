@@ -2,7 +2,7 @@
 template: paper
 template_version: 1.0.0
 collection: papers
-discord: https://discord.com/channels/1241649853658824776/1513643612682846369
+discord:
 slug: yang-value-uncaptured-2017
 serial: l-00002
 title: Value uncaptured perspective for sustainable business model innovation
