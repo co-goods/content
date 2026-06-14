@@ -1,12 +1,11 @@
 ---
 template: glossary-item
-template_version: 1.1.0
+template_version: 1.2.0
 collection: glossary
 slug: coordination
 title: Coordination
 type: word
 tag: true
-example: true
 classes:
   - type: noun
     definitions:
@@ -19,7 +18,7 @@ relationships:
 status: active
 stage: draft
 created: 2026-05-21
-updated: 2026-06-11
+updated: 2026-06-14
 ---
 
 # Coordination
