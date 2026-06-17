@@ -38,6 +38,15 @@ When a concept is routinely confused with another, the glossary entry records it
 
 Display titles use **sentence case** — capitalise only the first word and proper nouns ("Network effects", "Antirival goods"; but "SPDX", "GitHub", "Co-Goods"). Slugs are kebab-case. See `file-naming.md` for the full rules.
 
+### Co-Goods vs co-goods
+
+Two deliberate forms:
+
+- **`Co-Goods`** (both capitalised) — the **proper noun**: the enterprise, the protocol, the brand, the project, the team, the site. Always capped, even mid-sentence ("Co-Goods is a protocol", "the Co-Goods team", "the axis Co-Goods works on").
+- **`co-goods`** (lowercase) — the **common noun, adjective, or verb**: the concept and the things themselves ("a co-good", "co-goods are antirival", "co-goods design", "co-goodsing", "the co-goods system around a product"). Stays lowercase.
+
+**`Co-goods` (first letter only) is an error.** The only defensible use is the common noun at the very start of a sentence (English forces the capital) — prefer rephrasing so `co-goods` stays lowercase. Quick test: if it's the *organisation/protocol acting or being named*, write `Co-Goods`; if it's *the concept or a kind of good*, write `co-goods`.
+
 ## Related conventions
 
 - **Glossary schema** (the anchor model, fields, aliases, comparisons): see `../schemas/glossary-schema`.

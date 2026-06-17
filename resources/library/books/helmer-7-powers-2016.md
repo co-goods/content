@@ -37,8 +37,16 @@ updated: 2026-06-14
 
 ## Overview
 
-Hamilton Helmer's *7 Powers* (2016) defines **Power** as the conditions under which a business earns persistently differential returns, and names seven structural sources of it — scale economies, network economies, counter-positioning, switching costs, branding, cornered resource, and process power. Each is a distinct kind of [[moat]].
+Hamilton Helmer's *7 Powers* (2016) defines **Power** as the conditions under which a business earns persistently differential returns, and names seven structural sources of it — each a distinct kind of [[moat]]:
+
+- [[scale-economies|Scale economies]] — unit cost falls as volume rises.
+- [[network-effects|Network economies]] — value rises as more people use it.
+- [[counter-positioning|Counter-positioning]] — a superior model the incumbent can't copy without self-harm.
+- [[switching-costs|Switching costs]] — the cost to a customer of leaving.
+- [[branding|Branding]] — trust and identity that command a premium.
+- [[cornered-resource|Cornered resource]] — preferential access to a coveted asset.
+- [[process-power|Process power]] — embedded routines that are hard to replicate.
 
 ## Notes
 
-The most precise taxonomy of defensibility on the shelf. *Network economies* — i.e. [[network-effects|network effects]] — is one of the seven, and the one most relevant to how co-goods compound value across participants.
+The most precise taxonomy of defensibility on the shelf. *Network economies* — i.e. [[network-effects|network effects]] — is the one most relevant to how co-goods compound value across participants.

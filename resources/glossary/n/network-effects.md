@@ -1,12 +1,15 @@
 ---
 template: glossary-item
-template_version: 1.1.0
+template_version: 1.2.0
 collection: glossary
 slug: network-effects
 title: Network effects
 type: term
 tag: true
 topic: true
+aliases:
+  - network-economies
+  - network-externalities
 classes:
   - type: noun
     definitions:
@@ -20,7 +23,7 @@ relationships:
 status: active
 stage: draft
 created: 2025-11-23
-updated: 2026-06-11
+updated: 2026-06-17
 ---
 
 # Network effects

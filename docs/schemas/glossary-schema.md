@@ -118,6 +118,12 @@ comparison:
 
 `not_to_be_confused_with:` lists glossary slugs this concept is commonly conflated with but is **distinct** from (e.g. the `physical-vs-digital` comparison vs `non-physical`). It renders as a short "Not to be confused with" note. Unlike `aliases` (which assert *sameness*), this field asserts *difference* — use it for exactly the distinctions that keep getting blurred.
 
+## Relevance and stubs
+
+`relevance:` is a one-line "why this matters to Co-Goods" — the editorial angle on the concept, rendered as a "Relevance to Co-Goods" callout (the same field library and people entries use). Carry it even on a stub.
+
+A **stub** (`stage: stub`) is kept lightweight: the concise `classes` definition + `relevance` + the `related_terms` edges, with an **empty body**. The Stub banner and the relevance line give context; don't write prose until the entry is drafted or researched — so unreviewed placeholders stay visibly unfinished rather than reading as real content.
+
 ## Richer fields
 
 As entries mature, additional dictionary fields become useful — `acronym` / `expanded_form`, per-sense definitions, etymology, comparison-target slugs, example sentences. Start minimal; grow the entry as usage stabilises.

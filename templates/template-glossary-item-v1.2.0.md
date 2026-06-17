@@ -12,6 +12,7 @@ classes: []
 relationships:
   related_terms: []
 not_to_be_confused_with: []
+relevance: ""
 links: []
 sources: []
 status: active
@@ -80,6 +81,14 @@ CORE FIELDS:
   - not_to_be_confused_with: slugs of glossary concepts this is commonly conflated
     with but is distinct from (e.g. rivalry vs competition; physical-vs-digital vs
     non-physical). Rendered as a "Not to be confused with" note.
+  - relevance: a one-line "why this matters to Co-Goods" — the editorial angle,
+    rendered as a "Relevance to Co-Goods" callout (as on library/people entries).
+    Carry it even on a stub.
+
+STUBS (stage: stub): keep them lightweight — the concise `classes` definition +
+  `relevance` + the `related_terms` edges, with an EMPTY body. The Stub banner and
+  the relevance line give context; don't write prose until the entry is drafted or
+  researched, so unreviewed placeholders stay visibly unfinished.
 
 COMPARISON ENTRIES (type: comparison):
   A comparison entry explicitly contrasts two concepts. It carries a `comparison`

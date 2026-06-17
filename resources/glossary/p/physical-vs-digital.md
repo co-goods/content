@@ -24,6 +24,7 @@ comparison:
       term_b: A subset of the non-physical; still needs a physical substrate to exist.
 not_to_be_confused_with:
   - non-physical
+relevance: What's rival is the physical unit; what's made antirival is the non-physical system — calling that system "digital" both over- and under-states it.
 relationships:
   related_terms:
     - physical
@@ -32,11 +33,5 @@ relationships:
 status: active
 stage: draft
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-17
 ---
-
-# Physical vs. digital
-
-We habitually oppose [[physical]] and [[digital]] — the shop versus the app, the book versus the file. But the two words answer different questions. *Physical* answers "is it made of matter?"; *digital* answers "how is its information encoded?" Setting them against each other compares an apple to an orange.
-
-The distinction that actually does work is [[physical]] vs. [[non-physical]]. [[digital|Digital]] is one way of representing non-physical information (the other being analog), and it always rides on a physical substrate. For co-goods this matters: what is [[rival-goods|rival]] is the physical unit; what can be made [[antirivalness|antirival]] is the non-physical system around it — and calling that system "digital" both over- and under-states it.
