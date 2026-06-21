@@ -94,4 +94,4 @@ Asset filenames follow the same slug rules as everything else: **kebab-case, low
 - **Frontmatter contract** (universal + per-template fields): see `frontmatter.md`.
 - **Templates and versioning** (semver, archive workflow): see `templates-and-versioning.md`.
 - **Wikilinks** (qualified-path syntax): see `wikilinks.md`.
-- **Images and video** (media blocks, asset location): see `media.md`.
+- **Images and video** (media sections, asset location): see `media.md`.

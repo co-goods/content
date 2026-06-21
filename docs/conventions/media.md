@@ -16,9 +16,9 @@ updated: 2026-05-28
 
 How to add images and video to pages, where the files live, and how attribution and licensing work.
 
-Media is added through two **blocks** — `image` and `video` — authored as fenced sections, the same way as every other block (see the block syntax in the website's authoring notes). Both carry optional attribution so a credit and license line can sit under the media.
+Media is added through two **sections** — `image` and `video` — authored as fenced sections, the same way as every other section (see the section syntax in the website's authoring notes). Both carry optional attribution so a credit and license line can sit under the media.
 
-## The image block
+## The image section
 
 ```image
 src: ./assets/coordination-diagram.svg
@@ -39,7 +39,7 @@ aspectRatio: "16 / 9"
 - `width` / `height` — pixel dimensions when known; helps the renderer size the image.
 - Attribution fields — `credit`, `creditUrl`, `license`, `licenseUrl`, `sourceUrl`. See **Attribution and licensing**.
 
-## The video block
+## The video section
 
 Two ways to add video: **embed** a hosted video (YouTube or Vimeo), or **self-host** a short MP4. Embeds are the default — prefer them for anything substantial.
 
@@ -72,7 +72,7 @@ caption: A short loop.
 - `src` — the MP4 path (`provider: file` only).
 - `poster` — a still shown before a self-hosted video plays.
 - `title` — used as the embed's accessible title.
-- `caption`, `aspectRatio`, and the attribution fields work as on the image block.
+- `caption`, `aspectRatio`, and the attribution fields work as on the image section.
 
 **On self-hosting:** a `provider: file` video is served from the site's own bandwidth, which has a cost. Keep self-hosted clips short; for anything longer, upload to YouTube or Vimeo and embed it.
 
@@ -97,7 +97,7 @@ The test: **would another surface want this image?** If yes, it's content — pu
 
 ## Attribution and licensing
 
-Every media block can carry an attribution line:
+Every media section can carry an attribution line:
 
 - `credit` / `creditUrl` — who made it (and a link).
 - `license` / `licenseUrl` — the media's license (and a link to the license text).

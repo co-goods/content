@@ -134,7 +134,7 @@ This separation means:
 
 Three templates apply across the surface, not to a single collection:
 
-- **`composed-page`** — block-composed pages (home, about, custom collection pages). Lives in `website/pages/<url-path>.md` in the website repo.
+- **`composed-page`** — section-composed pages (home, about, custom collection pages). Lives in `website/pages/<url-path>.md` in the website repo.
 - **`overlay`** — splice fragments that layer site-specific framing onto a source page. Lives in `website/overlays/<source-folder>/<slug>.md` in the website repo.
 - **`plain-page`** — plain-markdown standalones with minimal frontmatter (manifesto, contributing).
 

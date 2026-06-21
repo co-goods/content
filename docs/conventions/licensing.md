@@ -44,7 +44,7 @@ To call out a license in the middle of prose — "released under …" — write 
 
 ## Media carries its own license
 
-Images and video are licensed **independently** of the item they appear in — an embedded video carries the platform's or creator's terms; a photo carries its own. Declare a media license on the `image` / `video` block, not in the item frontmatter — see [[docs/conventions/media|media]]. Media you didn't create must carry a credit and a license that permits the use.
+Images and video are licensed **independently** of the item they appear in — an embedded video carries the platform's or creator's terms; a photo carries its own. Declare a media license on the `image` / `video` section, not in the item frontmatter — see [[docs/conventions/media|media]]. Media you didn't create must carry a credit and a license that permits the use.
 
 ## Works we reference (the library)
 
