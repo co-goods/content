@@ -125,7 +125,7 @@ Within a nested collection, sub-collections inherit the parent's template by def
 
 Three templates apply across the surface, not to a single collection:
 
-- **`composed-page`** — block-composed pages (home, about, custom collection pages). Files live in `website/pages/<url-path>.md` in the **website repo**. Each composed page renders at its URL position — as a standalone page or as a custom version of a page the website would otherwise derive.
+- **`composed-page`** — section-composed pages (home, about, custom collection pages). Files live in `website/pages/<url-path>.md` in the **website repo**. Each composed page renders at its URL position — as a standalone page or as a custom version of a page the website would otherwise derive.
 - **`overlay`** — splice fragments that layer site-specific framing onto a source page. Files live in `website/overlays/<source-folder>/<slug>.md` in the **website repo**. Mirrors the source's content folder path.
 - **`plain-page`** — plain-markdown standalones (manifesto, contributing) with minimal frontmatter. The website renders title + body. Site-specific framing is added via an overlay so the source stays portable.
 

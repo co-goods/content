@@ -38,7 +38,7 @@ overlay for `thinking/essays/on-collaboration.md` lives at
 Frontmatter is minimal: optional title and note for human reference. No
 `collection:` — overlays aren't items in a collection.
 
-Body: one or more fenced section blocks. Each block is one spliced
+Body: one or more fenced sections. Each section is one spliced
 section; its splice metadata rides as reserved props:
 
 - `region`: `top | body | sidebar | bottom` (default `body`).
@@ -47,6 +47,6 @@ section; its splice metadata rides as reserved props:
   in `body`).
 - `name` (optional): an anchor other sections can target.
 
-Reserved props are stripped before the block's normal props reach its
+Reserved props are stripped before the section's normal props reach its
 component.
 -->

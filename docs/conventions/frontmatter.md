@@ -184,7 +184,7 @@ license_url: https://creativecommons.org/licenses/by/4.0/
 
 Write the value as an **SPDX identifier** — the standard short code for a license (`CC-BY-4.0`, `CC-BY-SA-4.0`, `CC0-1.0`, `MIT`, …). It's unambiguous and machine-readable, and the site renders a friendly, linked label from it, so `license_url:` is optional.
 
-Absent = the item inherits the site default. This is for the occasional item under a different (compatible) license. Note that **media carries its own license independently** — set that on the image/video block, not here (see `media.md`); and **library entries don't relicense the works they describe** — the record is first-party, the described work's rights are untouched. The full licensing model is in [[docs/conventions/licensing|licensing]].
+Absent = the item inherits the site default. This is for the occasional item under a different (compatible) license. Note that **media carries its own license independently** — set that on the image/video section, not here (see `media.md`); and **library entries don't relicense the works they describe** — the record is first-party, the described work's rights are untouched. The full licensing model is in [[docs/conventions/licensing|licensing]].
 
 ### `work_license:`
 

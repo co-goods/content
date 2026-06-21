@@ -15,7 +15,7 @@ Body content as plain markdown.
 Plain page schema (template: plain-page, v1.0.0).
 
 For unique standalone pages that aren't part of any collection and don't need
-the block-composition model — manifesto, contributing, that sort of thing.
+the section-composition model — manifesto, contributing, that sort of thing.
 
 - Minimal frontmatter: just title (plus universal `template` + `template_version`).
 - Body: plain markdown. The website renders title + body with default
