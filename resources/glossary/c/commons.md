@@ -25,4 +25,4 @@ updated: 2026-06-11
 
 # Commons
 
-Resources held and governed in common — characterised by collective ownership, shared [[governance]], rule-based access, and a stewardship horizon. The commons tradition is the source of much of what co-goods borrows about sustaining shared resources at scale and making collective decisions; co-goods extends it from digital commons toward physical production.
+Resources held and governed in common — characterised by collective ownership, shared [[governance|Governance]], rule-based access, and a stewardship horizon. The commons tradition is the source of much of what co-goods borrows about sustaining shared resources at scale and making collective decisions; co-goods extends it from digital commons toward physical production.

@@ -28,7 +28,7 @@ If we measure engagement density (top-quartile time-concentration of participati
 
 ## Underlying insight(s)
 
-Builds directly on [[research/insights/asynchronous-coordination-density]], which synthesised two observations and one library paper into the density-over-volume claim. This hypothesis makes the claim testable.
+Builds directly on [[research/insights/asynchronous-coordination-density|Engagement Density Predicts Coordination Quality in Asynchronous Networks]], which synthesised two observations and one library paper into the density-over-volume claim. This hypothesis makes the claim testable.
 
 ## Why this matters
 

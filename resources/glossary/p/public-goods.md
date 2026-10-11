@@ -24,4 +24,4 @@ updated: 2026-06-11
 
 # Public goods
 
-Goods that are both [[nonrival-goods]] (one person's use doesn't diminish another's) and non-excludable (you can't readily prevent access). The under-provision of public goods by markets is a classic motivation for collective and [[commons|commons-based]] provision — a thread the co-goods model picks up for physical production.
+Goods that are both [[nonrival-goods|Nonrival goods]] (one person's use doesn't diminish another's) and non-excludable (you can't readily prevent access). The under-provision of public goods by markets is a classic motivation for collective and [[commons|commons-based]] provision — a thread the co-goods model picks up for physical production.

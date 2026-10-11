@@ -21,4 +21,4 @@ updated: 2026-06-11
 
 # Sustainability
 
-Meeting present needs without compromising future generations' ability to meet theirs. Co-Goods treats sustainability as the floor — do no net harm — and [[regenerative]] approaches as the goal — actively restore.
+Meeting present needs without compromising future generations' ability to meet theirs. Co-Goods treats sustainability as the floor — do no net harm — and [[regenerative|Regenerative]] approaches as the goal — actively restore.

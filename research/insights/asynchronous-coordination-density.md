@@ -41,7 +41,7 @@ Synthesises two observations and one library entry into a single claim about coo
 
 ## Analysis
 
-[[research/observations/weekend-readership-spike]] and [[research/observations/expert-interview-pattern]] come from very different methodological places — one is a quantitative engagement metric across platforms, the other is a qualitative finding from expert interviews. Both nevertheless point at the same underlying mechanism: in asynchronous coordination, what matters isn't the total amount of participation, but how it's clustered in time.
+[[research/observations/weekend-readership-spike|Weekend Readership Spike on Long-Form Posts]] and [[research/observations/expert-interview-pattern|Expert Interview Pattern — Long-Form Answers Cluster Around Coordination Mechanisms]] come from very different methodological places — one is a quantitative engagement metric across platforms, the other is a qualitative finding from expert interviews. Both nevertheless point at the same underlying mechanism: in asynchronous coordination, what matters isn't the total amount of participation, but how it's clustered in time.
 
 [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]] provides the theoretical scaffolding for this — Section 4 specifically argues that asynchronous coordination's success depends on the "engagement density profile" rather than the engagement total.
 

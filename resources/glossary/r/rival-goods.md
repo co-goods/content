@@ -30,4 +30,4 @@ updated: 2026-06-14
 
 A good is **rival** when one person's consumption leaves less (or none) for everyone else — an apple, a seat, a garment worn. [[rivalry|Rivalry]] is one of the two axes (with excludability) of the classic [[goods-theory|typology of goods]].
 
-Physical products are rival at the unit level; the co-goods move is to wrap that rival unit in a [[nonrival-goods]] and [[antirival-goods]] *system* — designs, knowledge, and participation that don't deplete with use.
+Physical products are rival at the unit level; the co-goods move is to wrap that rival unit in a [[nonrival-goods|Nonrival goods]] and [[antirival-goods|Antirival goods]] *system* — designs, knowledge, and participation that don't deplete with use.

@@ -34,8 +34,8 @@ updated: 2026-06-11
 
 # Co-Goods
 
-Co-goods applies [[antirival-goods]] dynamics to material production through demand-driven co-creation. Physical products are [[rival-goods]] at the unit level, so co-goods builds a strongly antirival *system* around the unit — maximising its [[nonrival-goods]] components (designs, patterns, knowledge, feedback) and building participation that generates increasing returns.
+Co-goods applies [[antirival-goods|Antirival goods]] dynamics to material production through demand-driven co-creation. Physical products are [[rival-goods|Rival goods]] at the unit level, so co-goods builds a strongly antirival *system* around the unit — maximising its [[nonrival-goods|Nonrival goods]] components (designs, patterns, knowledge, feedback) and building participation that generates increasing returns.
 
-The wager is that [[network-effects|network effects]] can drive **down** material throughput rather than up: by coordinating real demand (see [[demand-coordination]]), fewer and better things get made and actually used. It addresses the gap Benkler left open — how the immaterial production of the digital [[commons]] connects to material production — and points the result toward [[regenerative-economics|regeneration]] rather than extraction.
+The wager is that [[network-effects|network effects]] can drive **down** material throughput rather than up: by coordinating real demand (see [[demand-coordination|Demand coordination]]), fewer and better things get made and actually used. It addresses the gap Benkler left open — how the immaterial production of the digital [[commons]] connects to material production — and points the result toward [[regenerative-economics|regeneration]] rather than extraction.
 
 One who does this is a *co-goodser*; the activity is *co-goodsing*.

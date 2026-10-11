@@ -34,7 +34,7 @@ Readership concentration during off-hours suggests that the most engaging long-f
 
 ## Related observations
 
-- [[research/observations/expert-interview-pattern]] — shares the "engagement concentrates" theme but in a qualitative dimension.
+- [[research/observations/expert-interview-pattern|Expert Interview Pattern — Long-Form Answers Cluster Around Coordination Mechanisms]] — shares the "engagement concentrates" theme but in a qualitative dimension.
 
 ## Notes
 

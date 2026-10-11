@@ -25,6 +25,6 @@ updated: 2026-06-11
 
 # Demand coordination
 
-In a demand-scarce world, the valuable work is coordinating a community's demand — sitting on social and cultural [[capital]] and aligning it so production can serve it. Crucially, this is *coordination*, not capture: the demand is organised toward shared outcomes rather than owned by an intermediary (contrast [[demand-aggregation]], the extractive cousin).
+In a demand-scarce world, the valuable work is coordinating a community's demand — sitting on social and cultural [[capital|Capital]] and aligning it so production can serve it. Crucially, this is *coordination*, not capture: the demand is organised toward shared outcomes rather than owned by an intermediary (contrast [[demand-aggregation|Demand aggregation]], the extractive cousin).
 
-The co-goods POV argued through this topic: coordinate real demand *before* you make, and you can produce fewer, better, actually-used physical things — porting the [[antirival-goods]] mechanism from bits to atoms and cutting waste in the process.
+The co-goods POV argued through this topic: coordinate real demand *before* you make, and you can produce fewer, better, actually-used physical things — porting the [[antirival-goods|Antirival goods]] mechanism from bits to atoms and cutting waste in the process.

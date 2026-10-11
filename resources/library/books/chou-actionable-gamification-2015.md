@@ -37,8 +37,8 @@ updated: 2026-06-14
 
 ## Overview
 
-Yu-kai Chou's *Actionable Gamification* (2015) sets out the **Octalysis** framework, which maps motivation onto eight core drives and distinguishes *white-hat* (empowering) from *black-hat* (compulsive) design. The argument is that durable [[engagement]] comes from human motivation, not from points and badges bolted onto a product.
+Yu-kai Chou's *Actionable Gamification* (2015) sets out the **Octalysis** framework, which maps motivation onto eight core drives and distinguishes *white-hat* (empowering) from *black-hat* (compulsive) design. The argument is that durable [[engagement|Engagement]] comes from human motivation, not from points and badges bolted onto a product.
 
 ## Notes
 
-A reference point for designing [[participation]] that empowers people rather than hooking them — the constructive counterpart to purely habit-forming design.
+A reference point for designing [[participation|Participation]] that empowers people rather than hooking them — the constructive counterpart to purely habit-forming design.

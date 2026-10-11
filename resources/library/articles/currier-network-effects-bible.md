@@ -38,7 +38,7 @@ updated: 2026-06-14
 
 ## Overview
 
-NFX's *Network Effects Bible* (James Currier and the NFX team) catalogues the major kinds of [[network-effects|network effect]] — direct, marketplace, data, social, and others — and argues they are the most durable [[moat]] in the digital economy. It is a practical reference for *how* networked value compounds and defends itself.
+NFX's *Network Effects Bible* (James Currier and the NFX team) catalogues the major kinds of [[network-effects|network effect]] — direct, marketplace, data, social, and others — and argues they are the most durable [[moat|Moat]] in the digital economy. It is a practical reference for *how* networked value compounds and defends itself.
 
 ## Notes
 
