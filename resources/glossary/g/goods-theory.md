@@ -34,4 +34,4 @@ The classical typology sorts goods along two axes — **rivalry** and **excludab
 - **Club goods** — nonrival but excludable (a subscription service).
 - **Common-pool resources** — rival but non-excludable (a fishery).
 
-Co-Goods's interest is in what the classic 2×2 misses: [[antirival-goods]] goods, where value *rises* with shared use. The framework is the established ground; the antirival extension is where the co-goods POV is argued.
+Co-Goods's interest is in what the classic 2×2 misses: [[antirival-goods|Antirival goods]] goods, where value *rises* with shared use. The framework is the established ground; the antirival extension is where the co-goods POV is argued.

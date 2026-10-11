@@ -32,7 +32,7 @@ The interesting question isn't "collaboration or hierarchy?" but "what's the leg
 
 ## Evidence
 
-This essay draws on [[research/observations/weekend-readership-spike]] and [[research/observations/expert-interview-pattern]], which both surface signals that the legibility profile of online knowledge work has shifted over the last decade. The synthesising insight is [[research/insights/asynchronous-coordination-density]].
+This essay draws on [[research/observations/weekend-readership-spike|Weekend Readership Spike on Long-Form Posts]] and [[research/observations/expert-interview-pattern|Expert Interview Pattern — Long-Form Answers Cluster Around Coordination Mechanisms]], which both surface signals that the legibility profile of online knowledge work has shifted over the last decade. The synthesising insight is [[research/insights/asynchronous-coordination-density|Engagement Density Predicts Coordination Quality in Asynchronous Networks]].
 
 ## Citations
 

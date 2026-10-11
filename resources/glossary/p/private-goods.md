@@ -23,4 +23,4 @@ updated: 2026-06-11
 
 # Private goods
 
-The default of market economics: goods that are [[rival-goods]] (consumed at the unit level) and excludable (gated by price or ownership). Physical products are private goods at the unit level — which is exactly why co-goods works at the level of the *system* around them rather than the unit itself.
+The default of market economics: goods that are [[rival-goods|Rival goods]] (consumed at the unit level) and excludable (gated by price or ownership). Physical products are private goods at the unit level — which is exactly why co-goods works at the level of the *system* around them rather than the unit itself.

@@ -39,7 +39,7 @@ updated: 2026-06-14
 
 ## Overview
 
-Kevin Kelly's 1997 essay *New Rules for the New Economy* reads, decades on, as a founding document of network thinking: value follows [[network-effects|networks]] rather than scarcity, success compounds through increasing returns, and [[abundance]] — even giving things away — becomes a strategy rather than a mistake.
+Kevin Kelly's 1997 essay *New Rules for the New Economy* reads, decades on, as a founding document of network thinking: value follows [[network-effects|networks]] rather than scarcity, success compounds through increasing returns, and [[abundance|Abundance]] — even giving things away — becomes a strategy rather than a mistake.
 
 ## Notes
 

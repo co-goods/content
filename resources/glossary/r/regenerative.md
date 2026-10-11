@@ -23,4 +23,4 @@ updated: 2026-06-11
 
 # Regenerative
 
-Where [[sustainability]] aims to do no net harm, a **regenerative** approach actively restores and renews the systems it draws on. In the co-goods view this is fundamentally about *distributing* value back into those systems rather than extracting it out — the heart of [[regenerative-economics]].
+Where [[sustainability|Sustainability]] aims to do no net harm, a **regenerative** approach actively restores and renews the systems it draws on. In the co-goods view this is fundamentally about *distributing* value back into those systems rather than extracting it out — the heart of [[regenerative-economics|Regenerative economics]].

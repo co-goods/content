@@ -28,7 +28,7 @@ Time-stamped narrative about the project — research updates, community moments
 
 ## Recent thinking
 
-A recent insight — [[research/insights/asynchronous-coordination-density]] — synthesised two observations into a testable hypothesis. See [[research/hypotheses/engagement-density-correlation]] for the validation plan.
+A recent insight — [[research/insights/asynchronous-coordination-density|Engagement Density Predicts Coordination Quality in Asynchronous Networks]] — synthesised two observations into a testable hypothesis. See [[research/hypotheses/engagement-density-correlation|Engagement Density Correlates With Coordination Quality (Testable)]] for the validation plan.
 
 If you're interested in the underlying literature, start with [[resources/library/papers/smith-network-coordination-2022|Smith (2022)]].
 
